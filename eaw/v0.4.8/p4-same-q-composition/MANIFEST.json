@@ -1,0 +1,85 @@
+{
+  "bundle": "AICOS_PUBLICATION_PREP",
+  "package_state": "POST-REMEDIATION PUBLICATION PACKAGE",
+  "package_characterization": "PARTIAL ARCHIVAL RESEARCH PACKET",
+  "previous_manifest_sha256": "c35bdde1329e4cc35abfc75edaa0e5a031f6f81326e94a9e4c32a962cc78bd2e",
+  "previous_manifest_status": "SUPERSEDED FOR PUBLICATION PACKAGING",
+  "entries": [
+    {
+      "path": "eaw/v0.4.8/EAW_v0.4.8_CANDIDATE.md",
+      "artifact_id": "eaw/v0.4.8/EAW_v0.4.8_CANDIDATE.md",
+      "SHA-256": "cac4d9965f2309a99c38e29ae11791c0b1dc8d0395ab2cd2d56508911217ffe2",
+      "byte_count": 37473,
+      "source_type": "CANONICAL CANDIDATE",
+      "transformation": "BYTE_IDENTICAL_COPY",
+      "evidentiary_status": "ORIGINAL/CANONICAL COPY",
+      "source_repository": "BeYourIdolAI/ai-council-os",
+      "source_repository_visibility": "private",
+      "source_logical_path": "evidence/night-lab/nl001/eaw/v0.4.8/EAW_v0.4.8_CANDIDATE.md",
+      "source_workspace_date": "2026-09-06",
+      "source_sha256": "cac4d9965f2309a99c38e29ae11791c0b1dc8d0395ab2cd2d56508911217ffe2",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "eaw/v0.4.8/p4-same-q-composition/CURRENT_STATE.md",
+      "artifact_id": "eaw/v0.4.8/p4-same-q-composition/CURRENT_STATE.md",
+      "SHA-256": "73461bdf09cc962b0c850b974ba6c2c7b1b87111f9026563839cea141bdb8a03",
+      "byte_count": 873,
+      "source_type": "BOOTSTRAP + transcript",
+      "transformation": "CURRENT_STATE_SUMMARY",
+      "evidentiary_status": "PUBLIC DERIVED VIEW",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "eaw/v0.4.8/p4-same-q-composition/EGA-01.md",
+      "artifact_id": "eaw/v0.4.8/p4-same-q-composition/EGA-01.md",
+      "SHA-256": "fdbbc18e103b2a4d718c2b727869b48ee05f1d1cce1e566598267db8a4eda2e0",
+      "byte_count": 1043,
+      "source_type": "TRANSCRIPT_SOURCE_AVAILABLE",
+      "transformation": "VERBATIM_TRANSCRIPT_EXTRACTION",
+      "evidentiary_status": "ARCHIVAL_DERIVED_ARTIFACT",
+      "source_locator": "Referenced ChatGPT conversation record; private session identifiers omitted from public manifest",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "eaw/v0.4.8/p4-same-q-composition/MISSING_OR_UNRESOLVED.md",
+      "artifact_id": "eaw/v0.4.8/p4-same-q-composition/MISSING_OR_UNRESOLVED.md",
+      "SHA-256": "51720bd1153cca8854fe71883652187996440da1270988d2286078ab03ff500f",
+      "byte_count": 603,
+      "source_type": "SOURCE INVENTORY",
+      "transformation": "PUBLIC_DERIVED_VIEW",
+      "evidentiary_status": "PUBLIC DERIVED VIEW",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "eaw/v0.4.8/p4-same-q-composition/SOURCE_PROVENANCE.md",
+      "artifact_id": "eaw/v0.4.8/p4-same-q-composition/SOURCE_PROVENANCE.md",
+      "SHA-256": "b50374161ba1ce2dde373e91abb509c22161f9fa17d9e56683ae04892e861255",
+      "byte_count": 1966,
+      "source_type": "SOURCE INVENTORY",
+      "transformation": "PUBLIC_DERIVED_VIEW",
+      "evidentiary_status": "PUBLIC DERIVED VIEW",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "eaw/v0.4.8/README.md",
+      "artifact_id": "eaw/v0.4.8/README.md",
+      "SHA-256": "f9e86c66b232d1fceee4bfd44f700ccb79daba3cf0c035473ac57957a6b9e65d",
+      "byte_count": 347,
+      "source_type": "PACKAGING",
+      "transformation": "PUBLIC_DERIVED_VIEW",
+      "evidentiary_status": "PUBLIC DERIVED VIEW",
+      "publication_preparation_date": "2026-09-16"
+    },
+    {
+      "path": "README.md",
+      "artifact_id": "README.md",
+      "SHA-256": "b08a70045bb7738d18cb65e5aaba18abb74f6e8763335166ea290224cb4a6c5e",
+      "byte_count": 1567,
+      "source_type": "PACKAGING",
+      "transformation": "PUBLIC_DERIVED_VIEW",
+      "evidentiary_status": "PUBLIC DERIVED VIEW",
+      "publication_preparation_date": "2026-09-16"
+    }
+  ]
+}
