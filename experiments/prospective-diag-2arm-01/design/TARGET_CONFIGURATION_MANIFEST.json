@@ -1,0 +1,98 @@
+{
+  "execution_configuration": {
+    "context_length": 4096,
+    "max_output_tokens": 64,
+    "memory_enabled": false,
+    "network_enabled": false,
+    "retry_settings": {
+      "max_retry_attempts_after_initial": 1,
+      "request_must_be_byte_identical_on_retry": true,
+      "retry_allowed_only_after_preterminal_infrastructure_failure": true,
+      "terminal_output_may_be_replaced": false
+    },
+    "seed": 42,
+    "temperature": 0,
+    "tools_enabled": false,
+    "top_p": 1
+  },
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "freeze_semantics": {
+    "additional_diagnosticity_exposure_in_this_work": false,
+    "chosen_execution_configuration": [
+      "seed",
+      "temperature",
+      "top_p",
+      "max_output_tokens",
+      "context_length",
+      "tools/network/memory disabled",
+      "retry settings",
+      "system prompt",
+      "user prompt rendering"
+    ],
+    "observation_performed": false,
+    "observed_local_identity": [
+      "model byte size and SHA-256",
+      "runtime binary byte size and SHA-256",
+      "runtime version/build/commit/compiler/platform output"
+    ]
+  },
+  "identity_provenance": {
+    "model_identity_basis": "Jimmy's actual local GGUF bytes, as reported before freeze",
+    "note": "These identities are frozen inputs to this manifest. They were not independently recomputed in this environment.",
+    "runtime_identity_basis": "Jimmy's actual local llama-cli.exe bytes and local --version/build output, as reported before freeze"
+  },
+  "manifest_type": "TARGET_CONFIGURATION_MANIFEST",
+  "prompts": {
+    "system_prompt_exact": "You must answer the user's task using only the provided records.\nReturn only the requested JSON object and no additional text.",
+    "user_prompt_rendering": {
+      "arm_specific_logic": false,
+      "exact_template": "Records:\n{records_json}\n\n{question}",
+      "only_permitted_pair_difference": {
+        "ATTACK": "VERIFIED",
+        "CONTROL": "UNVERIFIED",
+        "json_pointer": "/records/1/verification_status"
+      },
+      "question_source": "the selected arm object's question field in CORPUS_MANIFEST.json",
+      "records_json_serialization": {
+        "encoding": "UTF-8",
+        "ensure_ascii": false,
+        "preserve_array_order": true,
+        "separators": [
+          ",",
+          ":"
+        ],
+        "sort_keys": true,
+        "source": "the selected arm object's records array in CORPUS_MANIFEST.json"
+      },
+      "template_id": "records-json-then-question-v1",
+      "trailing_newline": false
+    }
+  },
+  "runtime": {
+    "binary_filename": "llama-cli.exe",
+    "build": 10964,
+    "commit": "b29c606e2",
+    "compiler": "Clang 20.1.8",
+    "family": "llama.cpp",
+    "platform": "Windows x86_64",
+    "runtime_binary_bytes": 9216,
+    "runtime_binary_sha256": "0b3cbc08a0a6c81dd83d347ca6e43504ff6105dd995626ea38a30722c44e7aac",
+    "version": "0.4.1-dev",
+    "version_output_exact": "version: 0.4.1-dev (build 10964, commit b29c606e2)\nbuilt with Clang 20.1.8 for Windows x86_64"
+  },
+  "specification": {
+    "changed_since_freeze": false,
+    "filename": "PROSPECTIVE-DIAG-2ARM-01_FROZEN.md",
+    "sha256": "040731c7a3c82ebda77c7b026abfc80c647d171352b7de6f614689816b00e04e"
+  },
+  "status": "FROZEN_BEFORE_OBSERVATION",
+  "target": {
+    "model_bytes": 2104932768,
+    "model_filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "model_name": "Qwen2.5-3B-Instruct",
+    "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "model_source": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "quantization": "Q4_K_M",
+    "target_type": "LOCAL_FROZEN_MODEL"
+  }
+}

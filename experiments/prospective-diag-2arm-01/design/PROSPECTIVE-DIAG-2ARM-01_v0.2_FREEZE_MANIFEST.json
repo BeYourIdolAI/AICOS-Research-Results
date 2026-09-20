@@ -1,0 +1,104 @@
+{
+  "manifest_type": "FREEZE_MANIFEST",
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "version": "v0.2",
+  "status": "FULL_FREEZE_COMPLETE_BEFORE_OBSERVATION",
+  "parent_freeze": {
+    "version": "v0.1",
+    "manifest_filename": "FINAL_FREEZE_MANIFEST.json",
+    "manifest_sha256": "7e9724e5f3201b4f1ad08ff298e3bb1d8ae3d090bbd2d867e5be6cc33454a1f5",
+    "relationship": "v0.1 is preserved unchanged as historical evidence and is not superseded. All five v0.1 components are inherited byte-identical into v0.2; none were re-authored."
+  },
+  "components": [
+    {
+      "role": "specification",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_FROZEN.md",
+      "sha256": "040731c7a3c82ebda77c7b026abfc80c647d171352b7de6f614689816b00e04e",
+      "bytes": 11743,
+      "inherited_from": "v0.1",
+      "changed_in_v0.2": false
+    },
+    {
+      "role": "corpus_manifest",
+      "filename": "CORPUS_MANIFEST.json",
+      "sha256": "868f961fce9ef219af1eb292d56d7afcf5bce4b6ea6ecade22f86f128a442324",
+      "bytes": 148424,
+      "inherited_from": "v0.1",
+      "changed_in_v0.2": false
+    },
+    {
+      "role": "target_configuration_manifest",
+      "filename": "TARGET_CONFIGURATION_MANIFEST.json",
+      "sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376",
+      "bytes": 3611,
+      "inherited_from": "v0.1",
+      "changed_in_v0.2": false
+    },
+    {
+      "role": "parser_scorer",
+      "filename": "PARSER_SCORER.py",
+      "sha256": "f4c8c76afe1baef4d17d0aba31fb44a2d0fca02e96ae92d1bfc982435ba828f5",
+      "bytes": 11178,
+      "inherited_from": "v0.1",
+      "changed_in_v0.2": false
+    },
+    {
+      "role": "conclusion_logic",
+      "filename": "CONCLUSION_LOGIC.py",
+      "sha256": "9b94ebdc6b09f55ed412ed4004e502117551d0f3bf4d8655ae729bb970c052a2",
+      "bytes": 2995,
+      "inherited_from": "v0.1",
+      "changed_in_v0.2": false
+    },
+    {
+      "role": "preobs_patch",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_v0.2_PREOBS_PATCH.md",
+      "sha256": "53414251ac97a5317f2193f88b02c37ea0c8e364d8a6de4b63f4488f16197aa0",
+      "bytes": 5669,
+      "inherited_from": null,
+      "changed_in_v0.2": true,
+      "patches": [
+        "REQUEST_BYTE_DEFINITION",
+        "RAW_PARSER_CONTRACT"
+      ]
+    }
+  ],
+  "runtime_bundle_record": {
+    "note": "Reasserts, unchanged, the target/runtime identity already frozen in TARGET_CONFIGURATION_MANIFEST.json (v0.1). Not independently re-verified in this patching session; identity basis remains REPORTED, as in v0.1.",
+    "source_component": "TARGET_CONFIGURATION_MANIFEST.json",
+    "source_component_sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376",
+    "model": {
+      "model_name": "Qwen2.5-3B-Instruct",
+      "model_filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "model_bytes": 2104932768,
+      "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d"
+    },
+    "runtime": {
+      "family": "llama.cpp",
+      "binary_filename": "llama-cli.exe",
+      "build": 10964,
+      "commit": "b29c606e2",
+      "version": "0.4.1-dev",
+      "platform": "Windows x86_64",
+      "runtime_binary_bytes": 9216,
+      "runtime_binary_sha256": "0b3cbc08a0a6c81dd83d347ca6e43504ff6105dd995626ea38a30722c44e7aac"
+    },
+    "runner_status": "NOT YET WRITTEN. No runner/harness code exists as a frozen or reviewed artifact as of this manifest. A runner implementing PATCH 1 and PATCH 2 of PROSPECTIVE-DIAG-2ARM-01_v0.2_PREOBS_PATCH.md must be written before any of the 120 trials are executed; the runner itself is not part of this freeze bundle."
+  },
+  "freeze_assertions": {
+    "observation_performed": false,
+    "experiment_execution": false,
+    "proposition_changed": false,
+    "corpus_changed": false,
+    "target_changed": false,
+    "prompt_text_changed": false,
+    "threshold_changed": false,
+    "parser_scoring_semantics_changed": false,
+    "retry_semantics_changed": false,
+    "conclusion_rule_changed": false,
+    "additional_diagnosticity_exposure_in_this_work": false,
+    "patch_scope": "REQUEST_BYTE_DEFINITION and RAW_PARSER_CONTRACT only, per PROSPECTIVE-DIAG-2ARM-01_v0.2_PREOBS_PATCH.md"
+  },
+  "binding_rule": "Any byte change to any listed component (including the patch) changes its SHA-256 and invalidates this v0.2 freeze bundle identity until a new prospective freeze is created before observation. This manifest does not authorize execution; the runner remains unwritten and unfrozen."
+}

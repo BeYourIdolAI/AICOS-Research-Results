@@ -1,0 +1,1752 @@
+{
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "generator_seed": 42,
+  "draw_algorithm": "random.Random(42).sample(range(1000,10000),120)",
+  "draw_order": [
+    {
+      "draw_index": 1,
+      "value": 2824
+    },
+    {
+      "draw_index": 2,
+      "value": 1409
+    },
+    {
+      "draw_index": 3,
+      "value": 5506
+    },
+    {
+      "draw_index": 4,
+      "value": 5012
+    },
+    {
+      "draw_index": 5,
+      "value": 4657
+    },
+    {
+      "draw_index": 6,
+      "value": 3286
+    },
+    {
+      "draw_index": 7,
+      "value": 2679
+    },
+    {
+      "draw_index": 8,
+      "value": 9935
+    },
+    {
+      "draw_index": 9,
+      "value": 2424
+    },
+    {
+      "draw_index": 10,
+      "value": 7912
+    },
+    {
+      "draw_index": 11,
+      "value": 1520
+    },
+    {
+      "draw_index": 12,
+      "value": 1488
+    },
+    {
+      "draw_index": 13,
+      "value": 2535
+    },
+    {
+      "draw_index": 14,
+      "value": 4582
+    },
+    {
+      "draw_index": 15,
+      "value": 4811
+    },
+    {
+      "draw_index": 16,
+      "value": 9279
+    },
+    {
+      "draw_index": 17,
+      "value": 1434
+    },
+    {
+      "draw_index": 18,
+      "value": 4257
+    },
+    {
+      "draw_index": 19,
+      "value": 9928
+    },
+    {
+      "draw_index": 20,
+      "value": 7873
+    },
+    {
+      "draw_index": 21,
+      "value": 4611
+    },
+    {
+      "draw_index": 22,
+      "value": 8359
+    },
+    {
+      "draw_index": 23,
+      "value": 5557
+    },
+    {
+      "draw_index": 24,
+      "value": 1106
+    },
+    {
+      "draw_index": 25,
+      "value": 3615
+    },
+    {
+      "draw_index": 26,
+      "value": 7924
+    },
+    {
+      "draw_index": 27,
+      "value": 6574
+    },
+    {
+      "draw_index": 28,
+      "value": 5552
+    },
+    {
+      "draw_index": 29,
+      "value": 3547
+    },
+    {
+      "draw_index": 30,
+      "value": 4527
+    },
+    {
+      "draw_index": 31,
+      "value": 6514
+    },
+    {
+      "draw_index": 32,
+      "value": 2674
+    },
+    {
+      "draw_index": 33,
+      "value": 2519
+    },
+    {
+      "draw_index": 34,
+      "value": 7224
+    },
+    {
+      "draw_index": 35,
+      "value": 2584
+    },
+    {
+      "draw_index": 36,
+      "value": 6881
+    },
+    {
+      "draw_index": 37,
+      "value": 6635
+    },
+    {
+      "draw_index": 38,
+      "value": 5333
+    },
+    {
+      "draw_index": 39,
+      "value": 1711
+    },
+    {
+      "draw_index": 40,
+      "value": 8527
+    },
+    {
+      "draw_index": 41,
+      "value": 9785
+    },
+    {
+      "draw_index": 42,
+      "value": 3045
+    },
+    {
+      "draw_index": 43,
+      "value": 7201
+    },
+    {
+      "draw_index": 44,
+      "value": 2291
+    },
+    {
+      "draw_index": 45,
+      "value": 5803
+    },
+    {
+      "draw_index": 46,
+      "value": 6925
+    },
+    {
+      "draw_index": 47,
+      "value": 4150
+    },
+    {
+      "draw_index": 48,
+      "value": 2139
+    },
+    {
+      "draw_index": 49,
+      "value": 1750
+    },
+    {
+      "draw_index": 50,
+      "value": 4733
+    },
+    {
+      "draw_index": 51,
+      "value": 5741
+    },
+    {
+      "draw_index": 52,
+      "value": 2307
+    },
+    {
+      "draw_index": 53,
+      "value": 4814
+    },
+    {
+      "draw_index": 54,
+      "value": 2654
+    },
+    {
+      "draw_index": 55,
+      "value": 7227
+    },
+    {
+      "draw_index": 56,
+      "value": 5554
+    },
+    {
+      "draw_index": 57,
+      "value": 8428
+    },
+    {
+      "draw_index": 58,
+      "value": 6977
+    },
+    {
+      "draw_index": 59,
+      "value": 3664
+    },
+    {
+      "draw_index": 60,
+      "value": 7065
+    },
+    {
+      "draw_index": 61,
+      "value": 6820
+    },
+    {
+      "draw_index": 62,
+      "value": 4432
+    },
+    {
+      "draw_index": 63,
+      "value": 5374
+    },
+    {
+      "draw_index": 64,
+      "value": 2169
+    },
+    {
+      "draw_index": 65,
+      "value": 3803
+    },
+    {
+      "draw_index": 66,
+      "value": 9751
+    },
+    {
+      "draw_index": 67,
+      "value": 5010
+    },
+    {
+      "draw_index": 68,
+      "value": 3677
+    },
+    {
+      "draw_index": 69,
+      "value": 8573
+    },
+    {
+      "draw_index": 70,
+      "value": 7216
+    },
+    {
+      "draw_index": 71,
+      "value": 5422
+    },
+    {
+      "draw_index": 72,
+      "value": 4598
+    },
+    {
+      "draw_index": 73,
+      "value": 6313
+    },
+    {
+      "draw_index": 74,
+      "value": 1916
+    },
+    {
+      "draw_index": 75,
+      "value": 4752
+    },
+    {
+      "draw_index": 76,
+      "value": 1525
+    },
+    {
+      "draw_index": 77,
+      "value": 6168
+    },
+    {
+      "draw_index": 78,
+      "value": 7572
+    },
+    {
+      "draw_index": 79,
+      "value": 5386
+    },
+    {
+      "draw_index": 80,
+      "value": 2084
+    },
+    {
+      "draw_index": 81,
+      "value": 4456
+    },
+    {
+      "draw_index": 82,
+      "value": 6155
+    },
+    {
+      "draw_index": 83,
+      "value": 4483
+    },
+    {
+      "draw_index": 84,
+      "value": 9179
+    },
+    {
+      "draw_index": 85,
+      "value": 7482
+    },
+    {
+      "draw_index": 86,
+      "value": 8517
+    },
+    {
+      "draw_index": 87,
+      "value": 3340
+    },
+    {
+      "draw_index": 88,
+      "value": 5339
+    },
+    {
+      "draw_index": 89,
+      "value": 3287
+    },
+    {
+      "draw_index": 90,
+      "value": 5040
+    },
+    {
+      "draw_index": 91,
+      "value": 9830
+    },
+    {
+      "draw_index": 92,
+      "value": 5304
+    },
+    {
+      "draw_index": 93,
+      "value": 8019
+    },
+    {
+      "draw_index": 94,
+      "value": 7543
+    },
+    {
+      "draw_index": 95,
+      "value": 6930
+    },
+    {
+      "draw_index": 96,
+      "value": 4593
+    },
+    {
+      "draw_index": 97,
+      "value": 3266
+    },
+    {
+      "draw_index": 98,
+      "value": 9348
+    },
+    {
+      "draw_index": 99,
+      "value": 9085
+    },
+    {
+      "draw_index": 100,
+      "value": 2489
+    },
+    {
+      "draw_index": 101,
+      "value": 1771
+    },
+    {
+      "draw_index": 102,
+      "value": 2796
+    },
+    {
+      "draw_index": 103,
+      "value": 3504
+    },
+    {
+      "draw_index": 104,
+      "value": 3621
+    },
+    {
+      "draw_index": 105,
+      "value": 7916
+    },
+    {
+      "draw_index": 106,
+      "value": 2040
+    },
+    {
+      "draw_index": 107,
+      "value": 7304
+    },
+    {
+      "draw_index": 108,
+      "value": 7252
+    },
+    {
+      "draw_index": 109,
+      "value": 8668
+    },
+    {
+      "draw_index": 110,
+      "value": 9669
+    },
+    {
+      "draw_index": 111,
+      "value": 5119
+    },
+    {
+      "draw_index": 112,
+      "value": 1188
+    },
+    {
+      "draw_index": 113,
+      "value": 2876
+    },
+    {
+      "draw_index": 114,
+      "value": 9797
+    },
+    {
+      "draw_index": 115,
+      "value": 5371
+    },
+    {
+      "draw_index": 116,
+      "value": 6573
+    },
+    {
+      "draw_index": 117,
+      "value": 2827
+    },
+    {
+      "draw_index": 118,
+      "value": 5808
+    },
+    {
+      "draw_index": 119,
+      "value": 8123
+    },
+    {
+      "draw_index": 120,
+      "value": 3591
+    }
+  ],
+  "raw_generated_values": [
+    2824,
+    1409,
+    5506,
+    5012,
+    4657,
+    3286,
+    2679,
+    9935,
+    2424,
+    7912,
+    1520,
+    1488,
+    2535,
+    4582,
+    4811,
+    9279,
+    1434,
+    4257,
+    9928,
+    7873,
+    4611,
+    8359,
+    5557,
+    1106,
+    3615,
+    7924,
+    6574,
+    5552,
+    3547,
+    4527,
+    6514,
+    2674,
+    2519,
+    7224,
+    2584,
+    6881,
+    6635,
+    5333,
+    1711,
+    8527,
+    9785,
+    3045,
+    7201,
+    2291,
+    5803,
+    6925,
+    4150,
+    2139,
+    1750,
+    4733,
+    5741,
+    2307,
+    4814,
+    2654,
+    7227,
+    5554,
+    8428,
+    6977,
+    3664,
+    7065,
+    6820,
+    4432,
+    5374,
+    2169,
+    3803,
+    9751,
+    5010,
+    3677,
+    8573,
+    7216,
+    5422,
+    4598,
+    6313,
+    1916,
+    4752,
+    1525,
+    6168,
+    7572,
+    5386,
+    2084,
+    4456,
+    6155,
+    4483,
+    9179,
+    7482,
+    8517,
+    3340,
+    5339,
+    3287,
+    5040,
+    9830,
+    5304,
+    8019,
+    7543,
+    6930,
+    4593,
+    3266,
+    9348,
+    9085,
+    2489,
+    1771,
+    2796,
+    3504,
+    3621,
+    7916,
+    2040,
+    7304,
+    7252,
+    8668,
+    9669,
+    5119,
+    1188,
+    2876,
+    9797,
+    5371,
+    6573,
+    2827,
+    5808,
+    8123,
+    3591
+  ],
+  "pairing": [
+    {
+      "pair_id": "PAIR-001",
+      "draw_indices": [
+        1,
+        2
+      ],
+      "A": 2824,
+      "B": 1409,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 2824,
+          "NOTE": 1409
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1409,
+          "NOTE": 2824
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-002",
+      "draw_indices": [
+        3,
+        4
+      ],
+      "A": 5506,
+      "B": 5012,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5506,
+          "NOTE": 5012
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5012,
+          "NOTE": 5506
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-003",
+      "draw_indices": [
+        5,
+        6
+      ],
+      "A": 4657,
+      "B": 3286,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4657,
+          "NOTE": 3286
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3286,
+          "NOTE": 4657
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-004",
+      "draw_indices": [
+        7,
+        8
+      ],
+      "A": 2679,
+      "B": 9935,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9935,
+          "NOTE": 2679
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2679,
+          "NOTE": 9935
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-005",
+      "draw_indices": [
+        9,
+        10
+      ],
+      "A": 2424,
+      "B": 7912,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7912,
+          "NOTE": 2424
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2424,
+          "NOTE": 7912
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-006",
+      "draw_indices": [
+        11,
+        12
+      ],
+      "A": 1520,
+      "B": 1488,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 1520,
+          "NOTE": 1488
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1488,
+          "NOTE": 1520
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-007",
+      "draw_indices": [
+        13,
+        14
+      ],
+      "A": 2535,
+      "B": 4582,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4582,
+          "NOTE": 2535
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2535,
+          "NOTE": 4582
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-008",
+      "draw_indices": [
+        15,
+        16
+      ],
+      "A": 4811,
+      "B": 9279,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9279,
+          "NOTE": 4811
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4811,
+          "NOTE": 9279
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-009",
+      "draw_indices": [
+        17,
+        18
+      ],
+      "A": 1434,
+      "B": 4257,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4257,
+          "NOTE": 1434
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1434,
+          "NOTE": 4257
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-010",
+      "draw_indices": [
+        19,
+        20
+      ],
+      "A": 9928,
+      "B": 7873,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9928,
+          "NOTE": 7873
+        },
+        "LARGER_NOTE": {
+          "AUTH": 7873,
+          "NOTE": 9928
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-011",
+      "draw_indices": [
+        21,
+        22
+      ],
+      "A": 4611,
+      "B": 8359,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8359,
+          "NOTE": 4611
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4611,
+          "NOTE": 8359
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-012",
+      "draw_indices": [
+        23,
+        24
+      ],
+      "A": 5557,
+      "B": 1106,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5557,
+          "NOTE": 1106
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1106,
+          "NOTE": 5557
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-013",
+      "draw_indices": [
+        25,
+        26
+      ],
+      "A": 3615,
+      "B": 7924,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7924,
+          "NOTE": 3615
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3615,
+          "NOTE": 7924
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-014",
+      "draw_indices": [
+        27,
+        28
+      ],
+      "A": 6574,
+      "B": 5552,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6574,
+          "NOTE": 5552
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5552,
+          "NOTE": 6574
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-015",
+      "draw_indices": [
+        29,
+        30
+      ],
+      "A": 3547,
+      "B": 4527,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4527,
+          "NOTE": 3547
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3547,
+          "NOTE": 4527
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-016",
+      "draw_indices": [
+        31,
+        32
+      ],
+      "A": 6514,
+      "B": 2674,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6514,
+          "NOTE": 2674
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2674,
+          "NOTE": 6514
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-017",
+      "draw_indices": [
+        33,
+        34
+      ],
+      "A": 2519,
+      "B": 7224,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7224,
+          "NOTE": 2519
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2519,
+          "NOTE": 7224
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-018",
+      "draw_indices": [
+        35,
+        36
+      ],
+      "A": 2584,
+      "B": 6881,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6881,
+          "NOTE": 2584
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2584,
+          "NOTE": 6881
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-019",
+      "draw_indices": [
+        37,
+        38
+      ],
+      "A": 6635,
+      "B": 5333,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6635,
+          "NOTE": 5333
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5333,
+          "NOTE": 6635
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-020",
+      "draw_indices": [
+        39,
+        40
+      ],
+      "A": 1711,
+      "B": 8527,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8527,
+          "NOTE": 1711
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1711,
+          "NOTE": 8527
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-021",
+      "draw_indices": [
+        41,
+        42
+      ],
+      "A": 9785,
+      "B": 3045,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9785,
+          "NOTE": 3045
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3045,
+          "NOTE": 9785
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-022",
+      "draw_indices": [
+        43,
+        44
+      ],
+      "A": 7201,
+      "B": 2291,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7201,
+          "NOTE": 2291
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2291,
+          "NOTE": 7201
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-023",
+      "draw_indices": [
+        45,
+        46
+      ],
+      "A": 5803,
+      "B": 6925,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6925,
+          "NOTE": 5803
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5803,
+          "NOTE": 6925
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-024",
+      "draw_indices": [
+        47,
+        48
+      ],
+      "A": 4150,
+      "B": 2139,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4150,
+          "NOTE": 2139
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2139,
+          "NOTE": 4150
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-025",
+      "draw_indices": [
+        49,
+        50
+      ],
+      "A": 1750,
+      "B": 4733,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4733,
+          "NOTE": 1750
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1750,
+          "NOTE": 4733
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-026",
+      "draw_indices": [
+        51,
+        52
+      ],
+      "A": 5741,
+      "B": 2307,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5741,
+          "NOTE": 2307
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2307,
+          "NOTE": 5741
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-027",
+      "draw_indices": [
+        53,
+        54
+      ],
+      "A": 4814,
+      "B": 2654,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4814,
+          "NOTE": 2654
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2654,
+          "NOTE": 4814
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-028",
+      "draw_indices": [
+        55,
+        56
+      ],
+      "A": 7227,
+      "B": 5554,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7227,
+          "NOTE": 5554
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5554,
+          "NOTE": 7227
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-029",
+      "draw_indices": [
+        57,
+        58
+      ],
+      "A": 8428,
+      "B": 6977,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8428,
+          "NOTE": 6977
+        },
+        "LARGER_NOTE": {
+          "AUTH": 6977,
+          "NOTE": 8428
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-030",
+      "draw_indices": [
+        59,
+        60
+      ],
+      "A": 3664,
+      "B": 7065,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7065,
+          "NOTE": 3664
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3664,
+          "NOTE": 7065
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-031",
+      "draw_indices": [
+        61,
+        62
+      ],
+      "A": 6820,
+      "B": 4432,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6820,
+          "NOTE": 4432
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4432,
+          "NOTE": 6820
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-032",
+      "draw_indices": [
+        63,
+        64
+      ],
+      "A": 5374,
+      "B": 2169,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5374,
+          "NOTE": 2169
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2169,
+          "NOTE": 5374
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-033",
+      "draw_indices": [
+        65,
+        66
+      ],
+      "A": 3803,
+      "B": 9751,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9751,
+          "NOTE": 3803
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3803,
+          "NOTE": 9751
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-034",
+      "draw_indices": [
+        67,
+        68
+      ],
+      "A": 5010,
+      "B": 3677,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5010,
+          "NOTE": 3677
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3677,
+          "NOTE": 5010
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-035",
+      "draw_indices": [
+        69,
+        70
+      ],
+      "A": 8573,
+      "B": 7216,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8573,
+          "NOTE": 7216
+        },
+        "LARGER_NOTE": {
+          "AUTH": 7216,
+          "NOTE": 8573
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-036",
+      "draw_indices": [
+        71,
+        72
+      ],
+      "A": 5422,
+      "B": 4598,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5422,
+          "NOTE": 4598
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4598,
+          "NOTE": 5422
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-037",
+      "draw_indices": [
+        73,
+        74
+      ],
+      "A": 6313,
+      "B": 1916,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6313,
+          "NOTE": 1916
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1916,
+          "NOTE": 6313
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-038",
+      "draw_indices": [
+        75,
+        76
+      ],
+      "A": 4752,
+      "B": 1525,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 4752,
+          "NOTE": 1525
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1525,
+          "NOTE": 4752
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-039",
+      "draw_indices": [
+        77,
+        78
+      ],
+      "A": 6168,
+      "B": 7572,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7572,
+          "NOTE": 6168
+        },
+        "LARGER_NOTE": {
+          "AUTH": 6168,
+          "NOTE": 7572
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-040",
+      "draw_indices": [
+        79,
+        80
+      ],
+      "A": 5386,
+      "B": 2084,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5386,
+          "NOTE": 2084
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2084,
+          "NOTE": 5386
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-041",
+      "draw_indices": [
+        81,
+        82
+      ],
+      "A": 4456,
+      "B": 6155,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6155,
+          "NOTE": 4456
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4456,
+          "NOTE": 6155
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-042",
+      "draw_indices": [
+        83,
+        84
+      ],
+      "A": 4483,
+      "B": 9179,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9179,
+          "NOTE": 4483
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4483,
+          "NOTE": 9179
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-043",
+      "draw_indices": [
+        85,
+        86
+      ],
+      "A": 7482,
+      "B": 8517,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8517,
+          "NOTE": 7482
+        },
+        "LARGER_NOTE": {
+          "AUTH": 7482,
+          "NOTE": 8517
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-044",
+      "draw_indices": [
+        87,
+        88
+      ],
+      "A": 3340,
+      "B": 5339,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5339,
+          "NOTE": 3340
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3340,
+          "NOTE": 5339
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-045",
+      "draw_indices": [
+        89,
+        90
+      ],
+      "A": 3287,
+      "B": 5040,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5040,
+          "NOTE": 3287
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3287,
+          "NOTE": 5040
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-046",
+      "draw_indices": [
+        91,
+        92
+      ],
+      "A": 9830,
+      "B": 5304,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9830,
+          "NOTE": 5304
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5304,
+          "NOTE": 9830
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-047",
+      "draw_indices": [
+        93,
+        94
+      ],
+      "A": 8019,
+      "B": 7543,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8019,
+          "NOTE": 7543
+        },
+        "LARGER_NOTE": {
+          "AUTH": 7543,
+          "NOTE": 8019
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-048",
+      "draw_indices": [
+        95,
+        96
+      ],
+      "A": 6930,
+      "B": 4593,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6930,
+          "NOTE": 4593
+        },
+        "LARGER_NOTE": {
+          "AUTH": 4593,
+          "NOTE": 6930
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-049",
+      "draw_indices": [
+        97,
+        98
+      ],
+      "A": 3266,
+      "B": 9348,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9348,
+          "NOTE": 3266
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3266,
+          "NOTE": 9348
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-050",
+      "draw_indices": [
+        99,
+        100
+      ],
+      "A": 9085,
+      "B": 2489,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9085,
+          "NOTE": 2489
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2489,
+          "NOTE": 9085
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-051",
+      "draw_indices": [
+        101,
+        102
+      ],
+      "A": 1771,
+      "B": 2796,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 2796,
+          "NOTE": 1771
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1771,
+          "NOTE": 2796
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-052",
+      "draw_indices": [
+        103,
+        104
+      ],
+      "A": 3504,
+      "B": 3621,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 3621,
+          "NOTE": 3504
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3504,
+          "NOTE": 3621
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-053",
+      "draw_indices": [
+        105,
+        106
+      ],
+      "A": 7916,
+      "B": 2040,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7916,
+          "NOTE": 2040
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2040,
+          "NOTE": 7916
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-054",
+      "draw_indices": [
+        107,
+        108
+      ],
+      "A": 7304,
+      "B": 7252,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 7304,
+          "NOTE": 7252
+        },
+        "LARGER_NOTE": {
+          "AUTH": 7252,
+          "NOTE": 7304
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-055",
+      "draw_indices": [
+        109,
+        110
+      ],
+      "A": 8668,
+      "B": 9669,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9669,
+          "NOTE": 8668
+        },
+        "LARGER_NOTE": {
+          "AUTH": 8668,
+          "NOTE": 9669
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-056",
+      "draw_indices": [
+        111,
+        112
+      ],
+      "A": 5119,
+      "B": 1188,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5119,
+          "NOTE": 1188
+        },
+        "LARGER_NOTE": {
+          "AUTH": 1188,
+          "NOTE": 5119
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-057",
+      "draw_indices": [
+        113,
+        114
+      ],
+      "A": 2876,
+      "B": 9797,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 9797,
+          "NOTE": 2876
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2876,
+          "NOTE": 9797
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-058",
+      "draw_indices": [
+        115,
+        116
+      ],
+      "A": 5371,
+      "B": 6573,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 6573,
+          "NOTE": 5371
+        },
+        "LARGER_NOTE": {
+          "AUTH": 5371,
+          "NOTE": 6573
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-059",
+      "draw_indices": [
+        117,
+        118
+      ],
+      "A": 2827,
+      "B": 5808,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 5808,
+          "NOTE": 2827
+        },
+        "LARGER_NOTE": {
+          "AUTH": 2827,
+          "NOTE": 5808
+        }
+      }
+    },
+    {
+      "pair_id": "PAIR-060",
+      "draw_indices": [
+        119,
+        120
+      ],
+      "A": 8123,
+      "B": 3591,
+      "assignments": {
+        "SMALLER_NOTE": {
+          "AUTH": 8123,
+          "NOTE": 3591
+        },
+        "LARGER_NOTE": {
+          "AUTH": 3591,
+          "NOTE": 8123
+        }
+      }
+    }
+  ],
+  "no_target_observation": true
+}

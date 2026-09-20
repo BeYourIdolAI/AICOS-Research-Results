@@ -1,0 +1,48 @@
+{
+  "package_name": "AICOS Diagnosticity Method Pack",
+  "package_version": "0.1",
+  "status": "CANDIDATE RESEARCH METHOD",
+  "normative_status": "NON-NORMATIVE",
+  "freeze_status": "NOT FROZEN",
+  "validation_status": "NOT INDEPENDENTLY VALIDATED",
+  "created_date": "2026-09-18",
+  "files": [
+    {
+      "path": "AICOS_DIAGNOSTICITY_CROSS_EXPERIMENT_REVIEW_v0.1.md",
+      "sha256": "d724a1b5fcbc31c571ca41f6f6e4032e5741cb5a107234b109ecab6899f96400",
+      "byte_count": 5405
+    },
+    {
+      "path": "AICOS_DIAGNOSTICITY_PREFLIGHT_v0.1.md",
+      "sha256": "3d925e198bba7aa712ffa4855d29f69d2d255334c1b1883255390882691b34ee",
+      "byte_count": 4997
+    },
+    {
+      "path": "AICOS_DIAGNOSTICITY_RESEARCH_NOTES_v0.1.md",
+      "sha256": "4e2cb71b5dcef3335bf274c8af0ccd7c3146e044a9ae118ef9ed5d40d72fd9cc",
+      "byte_count": 2750
+    },
+    {
+      "path": "README.md",
+      "sha256": "16a436635cab58b1cb659a6d7d6eaca0030ad6e73bbf3dc2dc2785d971075185",
+      "byte_count": 2023
+    }
+  ],
+  "source_experiments": [
+    "AT4-01",
+    "AT1-01",
+    "AT3-01"
+  ],
+  "source_eaw_object": "EAW_v0.4.8_CANDIDATE.md",
+  "source_eaw_sha256": "cac4d9965f2309a99c38e29ae11791c0b1dc8d0395ab2cd2d56508911217ffe2",
+  "human_owners": [
+    "Jimmy",
+    "Frida"
+  ],
+  "known_limitations": [
+    "Exact raw experiment files are not included in this method package.",
+    "D1–D11 are not complete, sufficient, validated or general.",
+    "Source histories are preserved elsewhere and are not reconstructed here.",
+    "This package is not independent validation."
+  ]
+}

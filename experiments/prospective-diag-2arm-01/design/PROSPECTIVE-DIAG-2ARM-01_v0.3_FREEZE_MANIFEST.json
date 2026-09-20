@@ -1,0 +1,109 @@
+{
+  "manifest_type": "FREEZE_MANIFEST",
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "version": "v0.3",
+  "status": "FULL_FREEZE_COMPLETE_BEFORE_NEXT_OBSERVATION",
+  "parent_freeze": {
+    "version": "v0.2",
+    "manifest_filename": "PROSPECTIVE-DIAG-2ARM-01_v0.2_FREEZE_MANIFEST.json",
+    "manifest_sha256": "e62a2d6cc7901c0592b1ef3e659ae2cf4b33f74c637c186cb55ca663b05b3394",
+    "relationship": "v0.1 and v0.2 are preserved unchanged as historical evidence and are not superseded. All prior components are inherited byte-identical into v0.3; none were re-authored."
+  },
+  "components": [
+    {
+      "role": "specification",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_FROZEN.md",
+      "sha256": "040731c7a3c82ebda77c7b026abfc80c647d171352b7de6f614689816b00e04e",
+      "bytes": 11743,
+      "inherited_from": "v0.1",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "corpus_manifest",
+      "filename": "CORPUS_MANIFEST.json",
+      "sha256": "868f961fce9ef219af1eb292d56d7afcf5bce4b6ea6ecade22f86f128a442324",
+      "bytes": 148424,
+      "inherited_from": "v0.1",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "target_configuration_manifest",
+      "filename": "TARGET_CONFIGURATION_MANIFEST.json",
+      "sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376",
+      "bytes": 3611,
+      "inherited_from": "v0.1",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "parser_scorer",
+      "filename": "PARSER_SCORER.py",
+      "sha256": "f4c8c76afe1baef4d17d0aba31fb44a2d0fca02e96ae92d1bfc982435ba828f5",
+      "bytes": 11178,
+      "inherited_from": "v0.1",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "conclusion_logic",
+      "filename": "CONCLUSION_LOGIC.py",
+      "sha256": "9b94ebdc6b09f55ed412ed4004e502117551d0f3bf4d8655ae729bb970c052a2",
+      "bytes": 2995,
+      "inherited_from": "v0.1",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "preobs_patch_v0.2",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_v0.2_PREOBS_PATCH.md",
+      "sha256": "53414251ac97a5317f2193f88b02c37ea0c8e364d8a6de4b63f4488f16197aa0",
+      "bytes": 5669,
+      "inherited_from": "v0.2",
+      "changed_in_v0.3": false,
+      "patches": ["REQUEST_BYTE_DEFINITION", "RAW_PARSER_CONTRACT"]
+    },
+    {
+      "role": "freeze_manifest_v0.2",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_v0.2_FREEZE_MANIFEST.json",
+      "sha256": "e62a2d6cc7901c0592b1ef3e659ae2cf4b33f74c637c186cb55ca663b05b3394",
+      "bytes": 4493,
+      "inherited_from": "v0.2",
+      "changed_in_v0.3": false
+    },
+    {
+      "role": "preobs_patch_v0.3",
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_v0.3_PREOBS_PATCH.md",
+      "sha256": "bde31549d8ab52fca15bfde6458eb7349bd1b8696fdb8d370ebfd63ce3171d53",
+      "bytes": 6069,
+      "inherited_from": null,
+      "changed_in_v0.3": true,
+      "patches": ["RESPONSE_BYTE_EXTRACTION_CONTRACT"]
+    }
+  ],
+  "prior_executions": {
+    "evidence_status": "REPORTED_NOT_VERIFIED_THIS_SESSION",
+    "note": "EXECUTION_001, EXECUTION_002 and EXECUTION_003 are named by the requester as motivation for this patch. No RAW, LOGS, result, or conclusion artifact for any of the three has been supplied to or hashed by this review session. They are NOT hash-bound components of this manifest and this manifest makes no claim about their byte identity, completeness, or outcome. To bind them as historical evidence, their actual artifacts must be supplied for direct hashing.",
+    "referenced_executions": [
+      {"id": "EXECUTION_001", "artifact_supplied": false, "claimed_outcome": "not described by requester"},
+      {"id": "EXECUTION_002", "artifact_supplied": false, "claimed_outcome": "not described by requester"},
+      {"id": "EXECUTION_003", "artifact_supplied": false, "claimed_outcome": "reported 120/120 trials completed, 120/120 scored PARSER_INVALID, attributed to unstripped llama-cli stdout transcript framing (runtime banner, echoed prompt, performance footer, exit text)"}
+    ]
+  },
+  "freeze_assertions": {
+    "observation_performed": false,
+    "experiment_execution": false,
+    "assertion_scope": "Refers specifically to the next execution attempt under the v0.3 response-byte-extraction contract. Does not retroactively characterize EXECUTION_001-003, which are recorded above as REPORTED prior events outside this freeze's verification.",
+    "proposition_changed": false,
+    "corpus_changed": false,
+    "target_changed": false,
+    "prompts_changed": false,
+    "execution_parameters_changed": false,
+    "arm_order_changed": false,
+    "threshold_changed": false,
+    "parser_scoring_semantics_changed": false,
+    "retry_semantics_changed": false,
+    "conclusion_rule_changed": false,
+    "v0.2_request_byte_definition_changed": false,
+    "v0.2_raw_parser_contract_changed": false,
+    "additional_diagnosticity_exposure_in_this_work": false,
+    "patch_scope": "RESPONSE_BYTE_EXTRACTION_CONTRACT only, per PROSPECTIVE-DIAG-2ARM-01_v0.3_PREOBS_PATCH.md"
+  },
+  "binding_rule": "Any byte change to any listed component (including this patch) changes its SHA-256 and invalidates this v0.3 freeze bundle identity until a new prospective freeze is created before the next observation. This manifest does not authorize execution and does not certify EXECUTION_001-003."
+}

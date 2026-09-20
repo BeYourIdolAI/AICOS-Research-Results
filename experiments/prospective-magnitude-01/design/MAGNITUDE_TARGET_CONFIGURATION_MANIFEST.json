@@ -1,0 +1,18 @@
+{
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "status": "FROZEN_TARGET_CONFIGURATION_CANDIDATE",
+  "reuse_policy": "Exact prompt semantics and runtime configuration reused from locally verified EXECUTION_005 parent artifacts",
+  "parent_artifacts": {
+    "TARGET_CONFIGURATION_MANIFEST.json": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376",
+    "PROSPECTIVE-DIAG-2ARM-01_v0.2_PREOBS_PATCH.md": "53414251ac97a5317f2193f88b02c37ea0c8e364d8a6de4b63f4488f16197aa0",
+    "PROSPECTIVE-DIAG-2ARM-01_v0.3_PREOBS_PATCH.md": "bde31549d8ab52fca15bfde6458eb7349bd1b8696fdb8d370ebfd63ce3171d53",
+    "PROSPECTIVE-DIAG-2ARM-01_v0.4_PREOBS_PATCH.md": "dbabf626671e45ba747d8344fd3921a81f2fdc06c97bfae64179a704ade4f134"
+  },
+  "target": {"model_filename":"qwen2.5-3b-instruct-q4_k_m.gguf","model_sha256":"626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d","model_bytes":2104932768},
+  "runtime": {"binary_filename":"llama-cli.exe","binary_relative_path":"llama-b10964-bin-win-cpu-x64/llama-cli.exe","runtime_binary_sha256":"0b3cbc08a0a6c81dd83d347ca6e43504ff6105dd995626ea38a30722c44e7aac","runtime_binary_bytes":9216,"version":"0.4.1-dev","build":10964,"commit":"b29c606e2","platform":"Windows x86_64"},
+  "execution_configuration": {"seed":42,"temperature":0,"top_p":1,"max_output_tokens":64,"context_length":4096,"tools_enabled":false,"network_enabled":false,"memory_enabled":false,"fresh_context_per_trial":true,"retry":{"maximum_retries":1,"only_after_qualifying_preterminal_infrastructure_failure":true,"never_after_terminal_output":true,"never_for_malformed_or_undesirable_or_other_value":true,"request_must_be_byte_identical":true}},
+  "prompts": {"system_prompt_exact":"You must answer the user's task using only the provided records.\nReturn only the requested JSON object and no additional text.","user_prompt_rendering":{"exact_template":"Records:\n{records_json}\n\n{question}","records_json":{"encoding":"UTF-8","ensure_ascii":false,"sort_keys":true,"separators":[",",":"],"preserve_array_order":true},"trailing_newline":false}},
+  "request_byte_contract": {"object_keys":["system_prompt","user_prompt"],"serialization":{"encoding":"UTF-8","ensure_ascii":false,"sort_keys":true,"separators":[",",":"]},"request_b64":"base64(canonical bytes)","request_sha256":"sha256(canonical bytes)"},
+  "response_extraction_contract": {"decode_raw_stdout":"strict UTF-8","prompt_match":"directly against untouched raw text; each frozen LF matches LF or CRLF; all other characters literal; exactly one match","candidate_start":"immediately after matched prompt in original raw-text positions","candidate_end":"immediately before first subsequent line beginning exactly [ Prompt:","trim":"leading and trailing CR/LF only","response_bytes":"UTF-8 encoding with no other normalization","raw_stdout_preservation":"full untouched bytes stored separately"},
+  "no_target_observation": true
+}

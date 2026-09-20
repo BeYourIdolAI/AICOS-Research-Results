@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "bytes": 11743,
+      "filename": "PROSPECTIVE-DIAG-2ARM-01_FROZEN.md",
+      "sha256": "040731c7a3c82ebda77c7b026abfc80c647d171352b7de6f614689816b00e04e"
+    },
+    {
+      "bytes": 148424,
+      "filename": "CORPUS_MANIFEST.json",
+      "sha256": "868f961fce9ef219af1eb292d56d7afcf5bce4b6ea6ecade22f86f128a442324"
+    },
+    {
+      "bytes": 3611,
+      "filename": "TARGET_CONFIGURATION_MANIFEST.json",
+      "sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376"
+    },
+    {
+      "bytes": 11178,
+      "filename": "PARSER_SCORER.py",
+      "sha256": "f4c8c76afe1baef4d17d0aba31fb44a2d0fca02e96ae92d1bfc982435ba828f5"
+    },
+    {
+      "bytes": 2995,
+      "filename": "CONCLUSION_LOGIC.py",
+      "sha256": "9b94ebdc6b09f55ed412ed4004e502117551d0f3bf4d8655ae729bb970c052a2"
+    }
+  ],
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "freeze_assertions": {
+    "additional_diagnosticity_exposure_in_this_work": false,
+    "conclusion_logic_frozen": true,
+    "corpus_frozen": true,
+    "execution_configuration_frozen": true,
+    "experiment_execution": false,
+    "model_byte_identity_established": true,
+    "observation_performed": false,
+    "parser_scorer_frozen": true,
+    "runtime_byte_build_identity_established": true,
+    "specification_changed": false
+  },
+  "manifest_type": "FINAL_FREEZE_MANIFEST",
+  "no_execution_note": "Creating and hashing this freeze bundle is not an experiment observation and does not execute the target model.",
+  "relationship": {
+    "binding_rule": "Any byte change to any listed component changes its SHA-256 and invalidates this freeze bundle identity until a new prospective freeze is created before observation.",
+    "conclusion_logic": "Frozen deterministic aggregate conclusion logic with only four permitted outcomes.",
+    "corpus_manifest": "Frozen 60-pair corpus and mechanically checkable CONTROL/ATTACK rendering.",
+    "parser_scorer": "Frozen deterministic parser/scorer; same logic for both arms.",
+    "specification": "Normative experiment semantics; unchanged since original freeze.",
+    "target_configuration_manifest": "Frozen target byte/build identity, prompts, execution parameters, and disabled capabilities."
+  },
+  "status": "FULL_FREEZE_COMPLETE_BEFORE_OBSERVATION"
+}

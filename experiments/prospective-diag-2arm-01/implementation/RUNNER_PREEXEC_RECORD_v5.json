@@ -1,0 +1,15 @@
+{
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "record_type": "RUNNER_PREEXEC_RECORD",
+  "observation_performed": false,
+  "experiment_execution": false,
+  "runner_filename": "RUN_PROSPECTIVE_DIAG_2ARM_01_v5.py",
+  "runner_sha256": "95554884df2d85a59d2b9c96004ead7666d8bac98973ecab93de436148972e2e",
+  "v0_2_freeze_manifest_sha256": "e62a2d6cc7901c0592b1ef3e659ae2cf4b33f74c637c186cb55ca663b05b3394",
+  "v0_3_freeze_manifest_sha256": "9c4cc0ca0380788206793b67bd2394a68a8898fede9128396bd5800d8da921b1",
+  "v0_4_freeze_manifest_sha256": "ec0d065a7ffdde793b459680a56e412edf9d842edae1e2b064b5d6d8b9b5f5fb",
+  "execution_order_policy": "balanced_pairwise_alternation_v1: odd item CONTROL->ATTACK; even item ATTACK->CONTROL",
+  "execution_plan_sha256": "6e1f05da46712dd1bbc782d21f18b2fccdadf4c192a0002a14e117a018151907",
+  "trial_count": 120,
+  "target_configuration_sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376"
+}

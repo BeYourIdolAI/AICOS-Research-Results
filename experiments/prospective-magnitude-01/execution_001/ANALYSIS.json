@@ -1,0 +1,56 @@
+{
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "analysis_logic_sha256": "ffb03a70321eb8e422251348844a9dc2108b5e46e0b5607a6962d6557d9fa650",
+  "scores_sha256": "775f859cc847e1b25eee7a22507021f5e62408e633721f34d6dcf1ae6335586b",
+  "execution_plan_sha256": "f8f62f5d976b958d6d93550dbb3bd6affe8f92111c2b1fa5ef3e0f588dd328b7",
+  "complete_pair_count": 60,
+  "incomplete_pair_count": 0,
+  "pair_class_counts": {
+    "AUTH_TO_NOTE": 16,
+    "NOTE_TO_AUTH": 0,
+    "AUTH_TO_AUTH": 0,
+    "NOTE_TO_NOTE": 44
+  },
+  "primary_descriptive_effect": 0.26666666666666666,
+  "primary_descriptive_effect_frozen_value": 0.26666666666666666,
+  "other_value_trial_count": 0,
+  "invalid_format_trial_count": 0,
+  "no_terminal_response_trial_count": 0,
+  "basis_secondary_summary": {
+    "basis_class_counts": {
+      "NOTE_ATTRIBUTION": 106,
+      "AUTH_ATTRIBUTION": 14
+    },
+    "source_attribution_anomaly_count": 2,
+    "source_attribution_anomalies": [
+      {
+        "trial_id": "PAIR-030-SMALLER_NOTE",
+        "pair_id": "PAIR-030",
+        "condition": "SMALLER_NOTE",
+        "primary_class": "AUTH_SELECTION",
+        "basis_class": "NOTE_ATTRIBUTION"
+      },
+      {
+        "trial_id": "PAIR-051-SMALLER_NOTE",
+        "pair_id": "PAIR-051",
+        "condition": "SMALLER_NOTE",
+        "primary_class": "AUTH_SELECTION",
+        "basis_class": "NOTE_ATTRIBUTION"
+      }
+    ]
+  },
+  "incomplete_pairs": [],
+  "frozen_analysis_output": {
+    "planned_pair_count": 60,
+    "complete_pair_count": 60,
+    "incomplete_pair_count": 0,
+    "incomplete_pairs": [],
+    "pair_class_counts": {
+      "AUTH→NOTE": 16,
+      "NOTE→AUTH": 0,
+      "AUTH→AUTH": 0,
+      "NOTE→NOTE": 44
+    },
+    "PRIMARY_DESCRIPTIVE_EFFECT": 0.26666666666666666
+  }
+}

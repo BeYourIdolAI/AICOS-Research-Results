@@ -1,0 +1,135 @@
+{
+  "manifest_type": "PROSPECTIVE_MAGNITUDE_FREEZE_MANIFEST",
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "version": "v0.2",
+  "status": "FULL_FREEZE_COMPLETE_PRE_OBSERVATION",
+  "parent_freeze": {
+    "filename": "MAGNITUDE_FINAL_FREEZE_MANIFEST.json",
+    "sha256": "d25558549c4644043003963c44acd06813a6d3a117c7259c961f2d96cf354215",
+    "relationship": "All v0.1 normative components remain byte-identical; v0.2 adds schemas and adapters only."
+  },
+  "components": [
+    {
+      "filename": "PROSPECTIVE-MAGNITUDE-01_v0.1_FROZEN.md",
+      "sha256": "9bab675eb157a51091c3c20a11304d62150e01b42c74850c46e3f8f14912c48f",
+      "bytes": 3819,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_CORPUS_GENERATOR.py",
+      "sha256": "ce9ddb1a3f11521cb862ca5e8fc77f24f812458d9683d81b32701978316cd6f3",
+      "bytes": 4355,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_CORPUS_GENERATION_LOG.json",
+      "sha256": "e268b89393cdd7c3f7cae73839e68bb4a94b3df00cf5c64ce821b8adc3fb342d",
+      "bytes": 28055,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_CORPUS_MANIFEST.json",
+      "sha256": "ae5995373a474450991dceac187dc38f233a4fcc1578c96c4b94fc70bcda0b50",
+      "bytes": 115023,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_TARGET_CONFIGURATION_MANIFEST.json",
+      "sha256": "c8cf2e18efeb051564ded2b411572c69f5a6efd8457f32be5c4a24a81672af25",
+      "bytes": 2908,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_PARSER_SCORER.py",
+      "sha256": "2dd8bf7b1fc2c4183b35c666998dc45da56f429f0c2c8a854b0ea93ea9985712",
+      "bytes": 1815,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_ANALYSIS.py",
+      "sha256": "ffb03a70321eb8e422251348844a9dc2108b5e46e0b5607a6962d6557d9fa650",
+      "bytes": 3190,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_EXECUTION_PLAN.json",
+      "sha256": "f8f62f5d976b958d6d93550dbb3bd6affe8f92111c2b1fa5ef3e0f588dd328b7",
+      "bytes": 145115,
+      "version": "v0.1"
+    },
+    {
+      "filename": "MAGNITUDE_FINAL_FREEZE_MANIFEST.json",
+      "sha256": "d25558549c4644043003963c44acd06813a6d3a117c7259c961f2d96cf354215",
+      "bytes": 3586,
+      "version": "v0.1"
+    },
+    {
+      "filename": "PROSPECTIVE-MAGNITUDE-01_v0.2_PREOBS_IMPLEMENTATION_PATCH.md",
+      "sha256": "3bb2d08ce9d50b58704f2b9e3c73e7424c670e4a17f9730fe97da5b6fbe20789",
+      "bytes": 6804,
+      "version": "v0.2"
+    },
+    {
+      "filename": "MAGNITUDE_SCORE_ADAPTER.py",
+      "sha256": "972d18b846e9ac95f9186da4cdc51c217830f125921d1f63c9dcd56364cd38a8",
+      "bytes": 6615,
+      "version": "v0.2"
+    },
+    {
+      "filename": "MAGNITUDE_PAIR_ANALYSIS_ADAPTER.py",
+      "sha256": "a0b04f2b581786f9d85100c9415576c8fb5c134ae543b99fb3eaf1a7a7437a70",
+      "bytes": 5835,
+      "version": "v0.2"
+    }
+  ],
+  "synthetic_adapter_tests": {
+    "status": "PASS",
+    "syntax": "PASS",
+    "score_adapter": {
+      "status": "PASS",
+      "cases": [
+        "NOTE_SELECTION",
+        "AUTH_SELECTION",
+        "OTHER_VALUE",
+        "INVALID_FORMAT",
+        "NO_TERMINAL_RESPONSE",
+        "value/basis attribution mismatch",
+        "120-record RAW adapter integration"
+      ],
+      "target_called": false
+    },
+    "pair_analysis_adapter": {
+      "status": "PASS",
+      "cases": [
+        "AUTH→NOTE",
+        "NOTE→AUTH",
+        "AUTH→AUTH",
+        "NOTE→NOTE",
+        "incomplete pair",
+        "zero complete pairs",
+        "120-score pair adapter integration"
+      ],
+      "target_called": false
+    }
+  },
+  "freeze_assertions": {
+    "observation_performed": false,
+    "experiment_execution": false,
+    "execution_directory_created": false,
+    "proposition_changed": false,
+    "corpus_changed": false,
+    "prompts_changed": false,
+    "verification_status_changed": false,
+    "execution_order_changed": false,
+    "primary_outcome_semantics_changed": false,
+    "complete_pair_definition_changed": false,
+    "primary_descriptive_effect_changed": false,
+    "basis_id_secondary_status_changed": false,
+    "retry_semantics_changed": false,
+    "target_runtime_config_changed": false,
+    "frozen_scorer_changed": false,
+    "frozen_analysis_changed": false,
+    "D1_D11_executed": false
+  },
+  "binding_rule": "All listed v0.1 and v0.2 components are bound by SHA-256. Any byte change invalidates this freeze before observation."
+}

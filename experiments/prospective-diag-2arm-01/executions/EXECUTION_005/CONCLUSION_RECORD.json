@@ -1,0 +1,9 @@
+{
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "outcome": "INVALID_CONTROL",
+  "specification_sha256": "040731c7a3c82ebda77c7b026abfc80c647d171352b7de6f614689816b00e04e",
+  "result_artifact_sha256": "9ba379242b7e153c3700f83b39941c8972c8a84a3f5baf984252d2cce2491dff",
+  "raw_artifact_sha256": "d9a1f20705ae1acfbfc4146fd8f71c6ea231cb691394f3cbd47bbdaeb7d75fdb",
+  "logs_artifact_sha256": "35a001c3973dc4072ad4c410435ffadd9278a2c083b32283e84dd4494087fd28",
+  "conclusion_logic_sha256": "9b94ebdc6b09f55ed412ed4004e502117551d0f3bf4d8655ae729bb970c052a2"
+}

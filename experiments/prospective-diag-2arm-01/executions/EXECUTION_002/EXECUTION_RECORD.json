@@ -1,0 +1,10 @@
+{
+  "experiment_id": "PROSPECTIVE-DIAG-2ARM-01",
+  "execution_started": "2026-09-20T07:54:55.053039+00:00",
+  "runner_sha256": "2a9c904cef21511039ed85ba7b7cc02f61ac2aa01889c5077ca6ab224cc6d9b1",
+  "preexec_record_sha256": "0f1d7b1948634a25eaef540e7c82bd8d50d1a9c2d6781921b68989fc2a998a35",
+  "v0_2_freeze_manifest_sha256": "e62a2d6cc7901c0592b1ef3e659ae2cf4b33f74c637c186cb55ca663b05b3394",
+  "target_configuration_sha256": "c130a1a101b75076efebeee0b659e146f1107f7feaee52da0ba2aa9c2b8b9376",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "llama_cli_sha256": "0b3cbc08a0a6c81dd83d347ca6e43504ff6105dd995626ea38a30722c44e7aac"
+}

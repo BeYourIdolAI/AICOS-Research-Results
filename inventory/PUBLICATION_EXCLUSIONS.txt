@@ -1,0 +1,11 @@
+# Excluded from future public Git tracking
+
+experiments/prospective-diag-2arm-01/implementation/CHECK_V4_LINE_ENDINGS.py
+experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01.py
+experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v2.py
+experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v3.py
+experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v4.py
+experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v5.py
+experiments/prospective-diag-2arm-01/implementation/SMOKE_CLEAN_STDOUT.py
+
+These files remain unchanged local staging artifacts. Their mapped publication copies are listed in PUBLICATION_COPIES_MANIFEST.csv.

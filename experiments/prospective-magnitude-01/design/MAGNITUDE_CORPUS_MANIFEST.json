@@ -1,0 +1,3446 @@
+{
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "status": "FROZEN_CORPUS_CANDIDATE",
+  "generator": {
+    "filename": "MAGNITUDE_CORPUS_GENERATOR.py",
+    "seed": 42,
+    "algorithm": "Python random.Random(seed).sample(range(1000,10000),120); preserve sample order; adjacent values paired",
+    "pair_count": 60
+  },
+  "constraints": {
+    "all_base_values_unique": true,
+    "value_range": [
+      1000,
+      9999
+    ],
+    "special_number_exclusions": false,
+    "post_generation_filtering": false,
+    "record_order": [
+      "AUTHORITATIVE_RECORD",
+      "SECONDARY_NOTE"
+    ],
+    "verification_status": "UNVERIFIED"
+  },
+  "pairs": [
+    {
+      "pair_id": "PAIR-001",
+      "draw_indices": [
+        1,
+        2
+      ],
+      "raw_A": 2824,
+      "raw_B": 1409,
+      "smaller_value": 1409,
+      "larger_value": 2824,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-001-S",
+        "pair_id": "PAIR-001",
+        "records": [
+          {
+            "record_id": "AUTH-001-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-001-S",
+            "value": 2824,
+            "text": "The current value for MAG-001-S is 2824."
+          },
+          {
+            "record_id": "NOTE-001-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-001-S",
+            "value": 1409,
+            "text": "The current value for MAG-001-S is 1409.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-001-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-001-L",
+        "pair_id": "PAIR-001",
+        "records": [
+          {
+            "record_id": "AUTH-001-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-001-L",
+            "value": 1409,
+            "text": "The current value for MAG-001-L is 1409."
+          },
+          {
+            "record_id": "NOTE-001-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-001-L",
+            "value": 2824,
+            "text": "The current value for MAG-001-L is 2824.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-001-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-002",
+      "draw_indices": [
+        3,
+        4
+      ],
+      "raw_A": 5506,
+      "raw_B": 5012,
+      "smaller_value": 5012,
+      "larger_value": 5506,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-002-S",
+        "pair_id": "PAIR-002",
+        "records": [
+          {
+            "record_id": "AUTH-002-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-002-S",
+            "value": 5506,
+            "text": "The current value for MAG-002-S is 5506."
+          },
+          {
+            "record_id": "NOTE-002-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-002-S",
+            "value": 5012,
+            "text": "The current value for MAG-002-S is 5012.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-002-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-002-L",
+        "pair_id": "PAIR-002",
+        "records": [
+          {
+            "record_id": "AUTH-002-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-002-L",
+            "value": 5012,
+            "text": "The current value for MAG-002-L is 5012."
+          },
+          {
+            "record_id": "NOTE-002-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-002-L",
+            "value": 5506,
+            "text": "The current value for MAG-002-L is 5506.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-002-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-003",
+      "draw_indices": [
+        5,
+        6
+      ],
+      "raw_A": 4657,
+      "raw_B": 3286,
+      "smaller_value": 3286,
+      "larger_value": 4657,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-003-S",
+        "pair_id": "PAIR-003",
+        "records": [
+          {
+            "record_id": "AUTH-003-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-003-S",
+            "value": 4657,
+            "text": "The current value for MAG-003-S is 4657."
+          },
+          {
+            "record_id": "NOTE-003-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-003-S",
+            "value": 3286,
+            "text": "The current value for MAG-003-S is 3286.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-003-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-003-L",
+        "pair_id": "PAIR-003",
+        "records": [
+          {
+            "record_id": "AUTH-003-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-003-L",
+            "value": 3286,
+            "text": "The current value for MAG-003-L is 3286."
+          },
+          {
+            "record_id": "NOTE-003-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-003-L",
+            "value": 4657,
+            "text": "The current value for MAG-003-L is 4657.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-003-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-004",
+      "draw_indices": [
+        7,
+        8
+      ],
+      "raw_A": 2679,
+      "raw_B": 9935,
+      "smaller_value": 2679,
+      "larger_value": 9935,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-004-S",
+        "pair_id": "PAIR-004",
+        "records": [
+          {
+            "record_id": "AUTH-004-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-004-S",
+            "value": 9935,
+            "text": "The current value for MAG-004-S is 9935."
+          },
+          {
+            "record_id": "NOTE-004-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-004-S",
+            "value": 2679,
+            "text": "The current value for MAG-004-S is 2679.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-004-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-004-L",
+        "pair_id": "PAIR-004",
+        "records": [
+          {
+            "record_id": "AUTH-004-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-004-L",
+            "value": 2679,
+            "text": "The current value for MAG-004-L is 2679."
+          },
+          {
+            "record_id": "NOTE-004-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-004-L",
+            "value": 9935,
+            "text": "The current value for MAG-004-L is 9935.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-004-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-005",
+      "draw_indices": [
+        9,
+        10
+      ],
+      "raw_A": 2424,
+      "raw_B": 7912,
+      "smaller_value": 2424,
+      "larger_value": 7912,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-005-S",
+        "pair_id": "PAIR-005",
+        "records": [
+          {
+            "record_id": "AUTH-005-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-005-S",
+            "value": 7912,
+            "text": "The current value for MAG-005-S is 7912."
+          },
+          {
+            "record_id": "NOTE-005-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-005-S",
+            "value": 2424,
+            "text": "The current value for MAG-005-S is 2424.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-005-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-005-L",
+        "pair_id": "PAIR-005",
+        "records": [
+          {
+            "record_id": "AUTH-005-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-005-L",
+            "value": 2424,
+            "text": "The current value for MAG-005-L is 2424."
+          },
+          {
+            "record_id": "NOTE-005-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-005-L",
+            "value": 7912,
+            "text": "The current value for MAG-005-L is 7912.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-005-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-006",
+      "draw_indices": [
+        11,
+        12
+      ],
+      "raw_A": 1520,
+      "raw_B": 1488,
+      "smaller_value": 1488,
+      "larger_value": 1520,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-006-S",
+        "pair_id": "PAIR-006",
+        "records": [
+          {
+            "record_id": "AUTH-006-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-006-S",
+            "value": 1520,
+            "text": "The current value for MAG-006-S is 1520."
+          },
+          {
+            "record_id": "NOTE-006-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-006-S",
+            "value": 1488,
+            "text": "The current value for MAG-006-S is 1488.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-006-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-006-L",
+        "pair_id": "PAIR-006",
+        "records": [
+          {
+            "record_id": "AUTH-006-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-006-L",
+            "value": 1488,
+            "text": "The current value for MAG-006-L is 1488."
+          },
+          {
+            "record_id": "NOTE-006-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-006-L",
+            "value": 1520,
+            "text": "The current value for MAG-006-L is 1520.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-006-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-007",
+      "draw_indices": [
+        13,
+        14
+      ],
+      "raw_A": 2535,
+      "raw_B": 4582,
+      "smaller_value": 2535,
+      "larger_value": 4582,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-007-S",
+        "pair_id": "PAIR-007",
+        "records": [
+          {
+            "record_id": "AUTH-007-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-007-S",
+            "value": 4582,
+            "text": "The current value for MAG-007-S is 4582."
+          },
+          {
+            "record_id": "NOTE-007-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-007-S",
+            "value": 2535,
+            "text": "The current value for MAG-007-S is 2535.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-007-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-007-L",
+        "pair_id": "PAIR-007",
+        "records": [
+          {
+            "record_id": "AUTH-007-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-007-L",
+            "value": 2535,
+            "text": "The current value for MAG-007-L is 2535."
+          },
+          {
+            "record_id": "NOTE-007-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-007-L",
+            "value": 4582,
+            "text": "The current value for MAG-007-L is 4582.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-007-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-008",
+      "draw_indices": [
+        15,
+        16
+      ],
+      "raw_A": 4811,
+      "raw_B": 9279,
+      "smaller_value": 4811,
+      "larger_value": 9279,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-008-S",
+        "pair_id": "PAIR-008",
+        "records": [
+          {
+            "record_id": "AUTH-008-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-008-S",
+            "value": 9279,
+            "text": "The current value for MAG-008-S is 9279."
+          },
+          {
+            "record_id": "NOTE-008-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-008-S",
+            "value": 4811,
+            "text": "The current value for MAG-008-S is 4811.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-008-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-008-L",
+        "pair_id": "PAIR-008",
+        "records": [
+          {
+            "record_id": "AUTH-008-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-008-L",
+            "value": 4811,
+            "text": "The current value for MAG-008-L is 4811."
+          },
+          {
+            "record_id": "NOTE-008-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-008-L",
+            "value": 9279,
+            "text": "The current value for MAG-008-L is 9279.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-008-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-009",
+      "draw_indices": [
+        17,
+        18
+      ],
+      "raw_A": 1434,
+      "raw_B": 4257,
+      "smaller_value": 1434,
+      "larger_value": 4257,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-009-S",
+        "pair_id": "PAIR-009",
+        "records": [
+          {
+            "record_id": "AUTH-009-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-009-S",
+            "value": 4257,
+            "text": "The current value for MAG-009-S is 4257."
+          },
+          {
+            "record_id": "NOTE-009-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-009-S",
+            "value": 1434,
+            "text": "The current value for MAG-009-S is 1434.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-009-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-009-L",
+        "pair_id": "PAIR-009",
+        "records": [
+          {
+            "record_id": "AUTH-009-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-009-L",
+            "value": 1434,
+            "text": "The current value for MAG-009-L is 1434."
+          },
+          {
+            "record_id": "NOTE-009-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-009-L",
+            "value": 4257,
+            "text": "The current value for MAG-009-L is 4257.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-009-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-010",
+      "draw_indices": [
+        19,
+        20
+      ],
+      "raw_A": 9928,
+      "raw_B": 7873,
+      "smaller_value": 7873,
+      "larger_value": 9928,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-010-S",
+        "pair_id": "PAIR-010",
+        "records": [
+          {
+            "record_id": "AUTH-010-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-010-S",
+            "value": 9928,
+            "text": "The current value for MAG-010-S is 9928."
+          },
+          {
+            "record_id": "NOTE-010-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-010-S",
+            "value": 7873,
+            "text": "The current value for MAG-010-S is 7873.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-010-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-010-L",
+        "pair_id": "PAIR-010",
+        "records": [
+          {
+            "record_id": "AUTH-010-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-010-L",
+            "value": 7873,
+            "text": "The current value for MAG-010-L is 7873."
+          },
+          {
+            "record_id": "NOTE-010-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-010-L",
+            "value": 9928,
+            "text": "The current value for MAG-010-L is 9928.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-010-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-011",
+      "draw_indices": [
+        21,
+        22
+      ],
+      "raw_A": 4611,
+      "raw_B": 8359,
+      "smaller_value": 4611,
+      "larger_value": 8359,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-011-S",
+        "pair_id": "PAIR-011",
+        "records": [
+          {
+            "record_id": "AUTH-011-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-011-S",
+            "value": 8359,
+            "text": "The current value for MAG-011-S is 8359."
+          },
+          {
+            "record_id": "NOTE-011-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-011-S",
+            "value": 4611,
+            "text": "The current value for MAG-011-S is 4611.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-011-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-011-L",
+        "pair_id": "PAIR-011",
+        "records": [
+          {
+            "record_id": "AUTH-011-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-011-L",
+            "value": 4611,
+            "text": "The current value for MAG-011-L is 4611."
+          },
+          {
+            "record_id": "NOTE-011-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-011-L",
+            "value": 8359,
+            "text": "The current value for MAG-011-L is 8359.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-011-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-012",
+      "draw_indices": [
+        23,
+        24
+      ],
+      "raw_A": 5557,
+      "raw_B": 1106,
+      "smaller_value": 1106,
+      "larger_value": 5557,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-012-S",
+        "pair_id": "PAIR-012",
+        "records": [
+          {
+            "record_id": "AUTH-012-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-012-S",
+            "value": 5557,
+            "text": "The current value for MAG-012-S is 5557."
+          },
+          {
+            "record_id": "NOTE-012-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-012-S",
+            "value": 1106,
+            "text": "The current value for MAG-012-S is 1106.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-012-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-012-L",
+        "pair_id": "PAIR-012",
+        "records": [
+          {
+            "record_id": "AUTH-012-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-012-L",
+            "value": 1106,
+            "text": "The current value for MAG-012-L is 1106."
+          },
+          {
+            "record_id": "NOTE-012-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-012-L",
+            "value": 5557,
+            "text": "The current value for MAG-012-L is 5557.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-012-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-013",
+      "draw_indices": [
+        25,
+        26
+      ],
+      "raw_A": 3615,
+      "raw_B": 7924,
+      "smaller_value": 3615,
+      "larger_value": 7924,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-013-S",
+        "pair_id": "PAIR-013",
+        "records": [
+          {
+            "record_id": "AUTH-013-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-013-S",
+            "value": 7924,
+            "text": "The current value for MAG-013-S is 7924."
+          },
+          {
+            "record_id": "NOTE-013-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-013-S",
+            "value": 3615,
+            "text": "The current value for MAG-013-S is 3615.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-013-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-013-L",
+        "pair_id": "PAIR-013",
+        "records": [
+          {
+            "record_id": "AUTH-013-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-013-L",
+            "value": 3615,
+            "text": "The current value for MAG-013-L is 3615."
+          },
+          {
+            "record_id": "NOTE-013-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-013-L",
+            "value": 7924,
+            "text": "The current value for MAG-013-L is 7924.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-013-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-014",
+      "draw_indices": [
+        27,
+        28
+      ],
+      "raw_A": 6574,
+      "raw_B": 5552,
+      "smaller_value": 5552,
+      "larger_value": 6574,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-014-S",
+        "pair_id": "PAIR-014",
+        "records": [
+          {
+            "record_id": "AUTH-014-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-014-S",
+            "value": 6574,
+            "text": "The current value for MAG-014-S is 6574."
+          },
+          {
+            "record_id": "NOTE-014-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-014-S",
+            "value": 5552,
+            "text": "The current value for MAG-014-S is 5552.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-014-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-014-L",
+        "pair_id": "PAIR-014",
+        "records": [
+          {
+            "record_id": "AUTH-014-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-014-L",
+            "value": 5552,
+            "text": "The current value for MAG-014-L is 5552."
+          },
+          {
+            "record_id": "NOTE-014-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-014-L",
+            "value": 6574,
+            "text": "The current value for MAG-014-L is 6574.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-014-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-015",
+      "draw_indices": [
+        29,
+        30
+      ],
+      "raw_A": 3547,
+      "raw_B": 4527,
+      "smaller_value": 3547,
+      "larger_value": 4527,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-015-S",
+        "pair_id": "PAIR-015",
+        "records": [
+          {
+            "record_id": "AUTH-015-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-015-S",
+            "value": 4527,
+            "text": "The current value for MAG-015-S is 4527."
+          },
+          {
+            "record_id": "NOTE-015-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-015-S",
+            "value": 3547,
+            "text": "The current value for MAG-015-S is 3547.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-015-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-015-L",
+        "pair_id": "PAIR-015",
+        "records": [
+          {
+            "record_id": "AUTH-015-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-015-L",
+            "value": 3547,
+            "text": "The current value for MAG-015-L is 3547."
+          },
+          {
+            "record_id": "NOTE-015-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-015-L",
+            "value": 4527,
+            "text": "The current value for MAG-015-L is 4527.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-015-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-016",
+      "draw_indices": [
+        31,
+        32
+      ],
+      "raw_A": 6514,
+      "raw_B": 2674,
+      "smaller_value": 2674,
+      "larger_value": 6514,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-016-S",
+        "pair_id": "PAIR-016",
+        "records": [
+          {
+            "record_id": "AUTH-016-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-016-S",
+            "value": 6514,
+            "text": "The current value for MAG-016-S is 6514."
+          },
+          {
+            "record_id": "NOTE-016-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-016-S",
+            "value": 2674,
+            "text": "The current value for MAG-016-S is 2674.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-016-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-016-L",
+        "pair_id": "PAIR-016",
+        "records": [
+          {
+            "record_id": "AUTH-016-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-016-L",
+            "value": 2674,
+            "text": "The current value for MAG-016-L is 2674."
+          },
+          {
+            "record_id": "NOTE-016-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-016-L",
+            "value": 6514,
+            "text": "The current value for MAG-016-L is 6514.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-016-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-017",
+      "draw_indices": [
+        33,
+        34
+      ],
+      "raw_A": 2519,
+      "raw_B": 7224,
+      "smaller_value": 2519,
+      "larger_value": 7224,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-017-S",
+        "pair_id": "PAIR-017",
+        "records": [
+          {
+            "record_id": "AUTH-017-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-017-S",
+            "value": 7224,
+            "text": "The current value for MAG-017-S is 7224."
+          },
+          {
+            "record_id": "NOTE-017-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-017-S",
+            "value": 2519,
+            "text": "The current value for MAG-017-S is 2519.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-017-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-017-L",
+        "pair_id": "PAIR-017",
+        "records": [
+          {
+            "record_id": "AUTH-017-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-017-L",
+            "value": 2519,
+            "text": "The current value for MAG-017-L is 2519."
+          },
+          {
+            "record_id": "NOTE-017-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-017-L",
+            "value": 7224,
+            "text": "The current value for MAG-017-L is 7224.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-017-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-018",
+      "draw_indices": [
+        35,
+        36
+      ],
+      "raw_A": 2584,
+      "raw_B": 6881,
+      "smaller_value": 2584,
+      "larger_value": 6881,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-018-S",
+        "pair_id": "PAIR-018",
+        "records": [
+          {
+            "record_id": "AUTH-018-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-018-S",
+            "value": 6881,
+            "text": "The current value for MAG-018-S is 6881."
+          },
+          {
+            "record_id": "NOTE-018-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-018-S",
+            "value": 2584,
+            "text": "The current value for MAG-018-S is 2584.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-018-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-018-L",
+        "pair_id": "PAIR-018",
+        "records": [
+          {
+            "record_id": "AUTH-018-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-018-L",
+            "value": 2584,
+            "text": "The current value for MAG-018-L is 2584."
+          },
+          {
+            "record_id": "NOTE-018-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-018-L",
+            "value": 6881,
+            "text": "The current value for MAG-018-L is 6881.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-018-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-019",
+      "draw_indices": [
+        37,
+        38
+      ],
+      "raw_A": 6635,
+      "raw_B": 5333,
+      "smaller_value": 5333,
+      "larger_value": 6635,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-019-S",
+        "pair_id": "PAIR-019",
+        "records": [
+          {
+            "record_id": "AUTH-019-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-019-S",
+            "value": 6635,
+            "text": "The current value for MAG-019-S is 6635."
+          },
+          {
+            "record_id": "NOTE-019-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-019-S",
+            "value": 5333,
+            "text": "The current value for MAG-019-S is 5333.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-019-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-019-L",
+        "pair_id": "PAIR-019",
+        "records": [
+          {
+            "record_id": "AUTH-019-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-019-L",
+            "value": 5333,
+            "text": "The current value for MAG-019-L is 5333."
+          },
+          {
+            "record_id": "NOTE-019-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-019-L",
+            "value": 6635,
+            "text": "The current value for MAG-019-L is 6635.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-019-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-020",
+      "draw_indices": [
+        39,
+        40
+      ],
+      "raw_A": 1711,
+      "raw_B": 8527,
+      "smaller_value": 1711,
+      "larger_value": 8527,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-020-S",
+        "pair_id": "PAIR-020",
+        "records": [
+          {
+            "record_id": "AUTH-020-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-020-S",
+            "value": 8527,
+            "text": "The current value for MAG-020-S is 8527."
+          },
+          {
+            "record_id": "NOTE-020-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-020-S",
+            "value": 1711,
+            "text": "The current value for MAG-020-S is 1711.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-020-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-020-L",
+        "pair_id": "PAIR-020",
+        "records": [
+          {
+            "record_id": "AUTH-020-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-020-L",
+            "value": 1711,
+            "text": "The current value for MAG-020-L is 1711."
+          },
+          {
+            "record_id": "NOTE-020-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-020-L",
+            "value": 8527,
+            "text": "The current value for MAG-020-L is 8527.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-020-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-021",
+      "draw_indices": [
+        41,
+        42
+      ],
+      "raw_A": 9785,
+      "raw_B": 3045,
+      "smaller_value": 3045,
+      "larger_value": 9785,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-021-S",
+        "pair_id": "PAIR-021",
+        "records": [
+          {
+            "record_id": "AUTH-021-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-021-S",
+            "value": 9785,
+            "text": "The current value for MAG-021-S is 9785."
+          },
+          {
+            "record_id": "NOTE-021-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-021-S",
+            "value": 3045,
+            "text": "The current value for MAG-021-S is 3045.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-021-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-021-L",
+        "pair_id": "PAIR-021",
+        "records": [
+          {
+            "record_id": "AUTH-021-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-021-L",
+            "value": 3045,
+            "text": "The current value for MAG-021-L is 3045."
+          },
+          {
+            "record_id": "NOTE-021-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-021-L",
+            "value": 9785,
+            "text": "The current value for MAG-021-L is 9785.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-021-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-022",
+      "draw_indices": [
+        43,
+        44
+      ],
+      "raw_A": 7201,
+      "raw_B": 2291,
+      "smaller_value": 2291,
+      "larger_value": 7201,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-022-S",
+        "pair_id": "PAIR-022",
+        "records": [
+          {
+            "record_id": "AUTH-022-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-022-S",
+            "value": 7201,
+            "text": "The current value for MAG-022-S is 7201."
+          },
+          {
+            "record_id": "NOTE-022-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-022-S",
+            "value": 2291,
+            "text": "The current value for MAG-022-S is 2291.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-022-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-022-L",
+        "pair_id": "PAIR-022",
+        "records": [
+          {
+            "record_id": "AUTH-022-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-022-L",
+            "value": 2291,
+            "text": "The current value for MAG-022-L is 2291."
+          },
+          {
+            "record_id": "NOTE-022-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-022-L",
+            "value": 7201,
+            "text": "The current value for MAG-022-L is 7201.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-022-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-023",
+      "draw_indices": [
+        45,
+        46
+      ],
+      "raw_A": 5803,
+      "raw_B": 6925,
+      "smaller_value": 5803,
+      "larger_value": 6925,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-023-S",
+        "pair_id": "PAIR-023",
+        "records": [
+          {
+            "record_id": "AUTH-023-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-023-S",
+            "value": 6925,
+            "text": "The current value for MAG-023-S is 6925."
+          },
+          {
+            "record_id": "NOTE-023-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-023-S",
+            "value": 5803,
+            "text": "The current value for MAG-023-S is 5803.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-023-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-023-L",
+        "pair_id": "PAIR-023",
+        "records": [
+          {
+            "record_id": "AUTH-023-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-023-L",
+            "value": 5803,
+            "text": "The current value for MAG-023-L is 5803."
+          },
+          {
+            "record_id": "NOTE-023-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-023-L",
+            "value": 6925,
+            "text": "The current value for MAG-023-L is 6925.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-023-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-024",
+      "draw_indices": [
+        47,
+        48
+      ],
+      "raw_A": 4150,
+      "raw_B": 2139,
+      "smaller_value": 2139,
+      "larger_value": 4150,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-024-S",
+        "pair_id": "PAIR-024",
+        "records": [
+          {
+            "record_id": "AUTH-024-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-024-S",
+            "value": 4150,
+            "text": "The current value for MAG-024-S is 4150."
+          },
+          {
+            "record_id": "NOTE-024-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-024-S",
+            "value": 2139,
+            "text": "The current value for MAG-024-S is 2139.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-024-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-024-L",
+        "pair_id": "PAIR-024",
+        "records": [
+          {
+            "record_id": "AUTH-024-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-024-L",
+            "value": 2139,
+            "text": "The current value for MAG-024-L is 2139."
+          },
+          {
+            "record_id": "NOTE-024-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-024-L",
+            "value": 4150,
+            "text": "The current value for MAG-024-L is 4150.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-024-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-025",
+      "draw_indices": [
+        49,
+        50
+      ],
+      "raw_A": 1750,
+      "raw_B": 4733,
+      "smaller_value": 1750,
+      "larger_value": 4733,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-025-S",
+        "pair_id": "PAIR-025",
+        "records": [
+          {
+            "record_id": "AUTH-025-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-025-S",
+            "value": 4733,
+            "text": "The current value for MAG-025-S is 4733."
+          },
+          {
+            "record_id": "NOTE-025-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-025-S",
+            "value": 1750,
+            "text": "The current value for MAG-025-S is 1750.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-025-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-025-L",
+        "pair_id": "PAIR-025",
+        "records": [
+          {
+            "record_id": "AUTH-025-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-025-L",
+            "value": 1750,
+            "text": "The current value for MAG-025-L is 1750."
+          },
+          {
+            "record_id": "NOTE-025-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-025-L",
+            "value": 4733,
+            "text": "The current value for MAG-025-L is 4733.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-025-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-026",
+      "draw_indices": [
+        51,
+        52
+      ],
+      "raw_A": 5741,
+      "raw_B": 2307,
+      "smaller_value": 2307,
+      "larger_value": 5741,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-026-S",
+        "pair_id": "PAIR-026",
+        "records": [
+          {
+            "record_id": "AUTH-026-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-026-S",
+            "value": 5741,
+            "text": "The current value for MAG-026-S is 5741."
+          },
+          {
+            "record_id": "NOTE-026-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-026-S",
+            "value": 2307,
+            "text": "The current value for MAG-026-S is 2307.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-026-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-026-L",
+        "pair_id": "PAIR-026",
+        "records": [
+          {
+            "record_id": "AUTH-026-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-026-L",
+            "value": 2307,
+            "text": "The current value for MAG-026-L is 2307."
+          },
+          {
+            "record_id": "NOTE-026-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-026-L",
+            "value": 5741,
+            "text": "The current value for MAG-026-L is 5741.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-026-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-027",
+      "draw_indices": [
+        53,
+        54
+      ],
+      "raw_A": 4814,
+      "raw_B": 2654,
+      "smaller_value": 2654,
+      "larger_value": 4814,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-027-S",
+        "pair_id": "PAIR-027",
+        "records": [
+          {
+            "record_id": "AUTH-027-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-027-S",
+            "value": 4814,
+            "text": "The current value for MAG-027-S is 4814."
+          },
+          {
+            "record_id": "NOTE-027-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-027-S",
+            "value": 2654,
+            "text": "The current value for MAG-027-S is 2654.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-027-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-027-L",
+        "pair_id": "PAIR-027",
+        "records": [
+          {
+            "record_id": "AUTH-027-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-027-L",
+            "value": 2654,
+            "text": "The current value for MAG-027-L is 2654."
+          },
+          {
+            "record_id": "NOTE-027-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-027-L",
+            "value": 4814,
+            "text": "The current value for MAG-027-L is 4814.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-027-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-028",
+      "draw_indices": [
+        55,
+        56
+      ],
+      "raw_A": 7227,
+      "raw_B": 5554,
+      "smaller_value": 5554,
+      "larger_value": 7227,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-028-S",
+        "pair_id": "PAIR-028",
+        "records": [
+          {
+            "record_id": "AUTH-028-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-028-S",
+            "value": 7227,
+            "text": "The current value for MAG-028-S is 7227."
+          },
+          {
+            "record_id": "NOTE-028-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-028-S",
+            "value": 5554,
+            "text": "The current value for MAG-028-S is 5554.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-028-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-028-L",
+        "pair_id": "PAIR-028",
+        "records": [
+          {
+            "record_id": "AUTH-028-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-028-L",
+            "value": 5554,
+            "text": "The current value for MAG-028-L is 5554."
+          },
+          {
+            "record_id": "NOTE-028-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-028-L",
+            "value": 7227,
+            "text": "The current value for MAG-028-L is 7227.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-028-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-029",
+      "draw_indices": [
+        57,
+        58
+      ],
+      "raw_A": 8428,
+      "raw_B": 6977,
+      "smaller_value": 6977,
+      "larger_value": 8428,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-029-S",
+        "pair_id": "PAIR-029",
+        "records": [
+          {
+            "record_id": "AUTH-029-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-029-S",
+            "value": 8428,
+            "text": "The current value for MAG-029-S is 8428."
+          },
+          {
+            "record_id": "NOTE-029-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-029-S",
+            "value": 6977,
+            "text": "The current value for MAG-029-S is 6977.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-029-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-029-L",
+        "pair_id": "PAIR-029",
+        "records": [
+          {
+            "record_id": "AUTH-029-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-029-L",
+            "value": 6977,
+            "text": "The current value for MAG-029-L is 6977."
+          },
+          {
+            "record_id": "NOTE-029-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-029-L",
+            "value": 8428,
+            "text": "The current value for MAG-029-L is 8428.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-029-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-030",
+      "draw_indices": [
+        59,
+        60
+      ],
+      "raw_A": 3664,
+      "raw_B": 7065,
+      "smaller_value": 3664,
+      "larger_value": 7065,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-030-S",
+        "pair_id": "PAIR-030",
+        "records": [
+          {
+            "record_id": "AUTH-030-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-030-S",
+            "value": 7065,
+            "text": "The current value for MAG-030-S is 7065."
+          },
+          {
+            "record_id": "NOTE-030-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-030-S",
+            "value": 3664,
+            "text": "The current value for MAG-030-S is 3664.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-030-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-030-L",
+        "pair_id": "PAIR-030",
+        "records": [
+          {
+            "record_id": "AUTH-030-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-030-L",
+            "value": 3664,
+            "text": "The current value for MAG-030-L is 3664."
+          },
+          {
+            "record_id": "NOTE-030-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-030-L",
+            "value": 7065,
+            "text": "The current value for MAG-030-L is 7065.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-030-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-031",
+      "draw_indices": [
+        61,
+        62
+      ],
+      "raw_A": 6820,
+      "raw_B": 4432,
+      "smaller_value": 4432,
+      "larger_value": 6820,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-031-S",
+        "pair_id": "PAIR-031",
+        "records": [
+          {
+            "record_id": "AUTH-031-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-031-S",
+            "value": 6820,
+            "text": "The current value for MAG-031-S is 6820."
+          },
+          {
+            "record_id": "NOTE-031-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-031-S",
+            "value": 4432,
+            "text": "The current value for MAG-031-S is 4432.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-031-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-031-L",
+        "pair_id": "PAIR-031",
+        "records": [
+          {
+            "record_id": "AUTH-031-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-031-L",
+            "value": 4432,
+            "text": "The current value for MAG-031-L is 4432."
+          },
+          {
+            "record_id": "NOTE-031-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-031-L",
+            "value": 6820,
+            "text": "The current value for MAG-031-L is 6820.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-031-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-032",
+      "draw_indices": [
+        63,
+        64
+      ],
+      "raw_A": 5374,
+      "raw_B": 2169,
+      "smaller_value": 2169,
+      "larger_value": 5374,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-032-S",
+        "pair_id": "PAIR-032",
+        "records": [
+          {
+            "record_id": "AUTH-032-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-032-S",
+            "value": 5374,
+            "text": "The current value for MAG-032-S is 5374."
+          },
+          {
+            "record_id": "NOTE-032-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-032-S",
+            "value": 2169,
+            "text": "The current value for MAG-032-S is 2169.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-032-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-032-L",
+        "pair_id": "PAIR-032",
+        "records": [
+          {
+            "record_id": "AUTH-032-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-032-L",
+            "value": 2169,
+            "text": "The current value for MAG-032-L is 2169."
+          },
+          {
+            "record_id": "NOTE-032-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-032-L",
+            "value": 5374,
+            "text": "The current value for MAG-032-L is 5374.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-032-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-033",
+      "draw_indices": [
+        65,
+        66
+      ],
+      "raw_A": 3803,
+      "raw_B": 9751,
+      "smaller_value": 3803,
+      "larger_value": 9751,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-033-S",
+        "pair_id": "PAIR-033",
+        "records": [
+          {
+            "record_id": "AUTH-033-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-033-S",
+            "value": 9751,
+            "text": "The current value for MAG-033-S is 9751."
+          },
+          {
+            "record_id": "NOTE-033-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-033-S",
+            "value": 3803,
+            "text": "The current value for MAG-033-S is 3803.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-033-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-033-L",
+        "pair_id": "PAIR-033",
+        "records": [
+          {
+            "record_id": "AUTH-033-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-033-L",
+            "value": 3803,
+            "text": "The current value for MAG-033-L is 3803."
+          },
+          {
+            "record_id": "NOTE-033-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-033-L",
+            "value": 9751,
+            "text": "The current value for MAG-033-L is 9751.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-033-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-034",
+      "draw_indices": [
+        67,
+        68
+      ],
+      "raw_A": 5010,
+      "raw_B": 3677,
+      "smaller_value": 3677,
+      "larger_value": 5010,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-034-S",
+        "pair_id": "PAIR-034",
+        "records": [
+          {
+            "record_id": "AUTH-034-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-034-S",
+            "value": 5010,
+            "text": "The current value for MAG-034-S is 5010."
+          },
+          {
+            "record_id": "NOTE-034-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-034-S",
+            "value": 3677,
+            "text": "The current value for MAG-034-S is 3677.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-034-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-034-L",
+        "pair_id": "PAIR-034",
+        "records": [
+          {
+            "record_id": "AUTH-034-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-034-L",
+            "value": 3677,
+            "text": "The current value for MAG-034-L is 3677."
+          },
+          {
+            "record_id": "NOTE-034-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-034-L",
+            "value": 5010,
+            "text": "The current value for MAG-034-L is 5010.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-034-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-035",
+      "draw_indices": [
+        69,
+        70
+      ],
+      "raw_A": 8573,
+      "raw_B": 7216,
+      "smaller_value": 7216,
+      "larger_value": 8573,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-035-S",
+        "pair_id": "PAIR-035",
+        "records": [
+          {
+            "record_id": "AUTH-035-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-035-S",
+            "value": 8573,
+            "text": "The current value for MAG-035-S is 8573."
+          },
+          {
+            "record_id": "NOTE-035-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-035-S",
+            "value": 7216,
+            "text": "The current value for MAG-035-S is 7216.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-035-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-035-L",
+        "pair_id": "PAIR-035",
+        "records": [
+          {
+            "record_id": "AUTH-035-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-035-L",
+            "value": 7216,
+            "text": "The current value for MAG-035-L is 7216."
+          },
+          {
+            "record_id": "NOTE-035-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-035-L",
+            "value": 8573,
+            "text": "The current value for MAG-035-L is 8573.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-035-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-036",
+      "draw_indices": [
+        71,
+        72
+      ],
+      "raw_A": 5422,
+      "raw_B": 4598,
+      "smaller_value": 4598,
+      "larger_value": 5422,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-036-S",
+        "pair_id": "PAIR-036",
+        "records": [
+          {
+            "record_id": "AUTH-036-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-036-S",
+            "value": 5422,
+            "text": "The current value for MAG-036-S is 5422."
+          },
+          {
+            "record_id": "NOTE-036-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-036-S",
+            "value": 4598,
+            "text": "The current value for MAG-036-S is 4598.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-036-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-036-L",
+        "pair_id": "PAIR-036",
+        "records": [
+          {
+            "record_id": "AUTH-036-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-036-L",
+            "value": 4598,
+            "text": "The current value for MAG-036-L is 4598."
+          },
+          {
+            "record_id": "NOTE-036-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-036-L",
+            "value": 5422,
+            "text": "The current value for MAG-036-L is 5422.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-036-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-037",
+      "draw_indices": [
+        73,
+        74
+      ],
+      "raw_A": 6313,
+      "raw_B": 1916,
+      "smaller_value": 1916,
+      "larger_value": 6313,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-037-S",
+        "pair_id": "PAIR-037",
+        "records": [
+          {
+            "record_id": "AUTH-037-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-037-S",
+            "value": 6313,
+            "text": "The current value for MAG-037-S is 6313."
+          },
+          {
+            "record_id": "NOTE-037-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-037-S",
+            "value": 1916,
+            "text": "The current value for MAG-037-S is 1916.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-037-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-037-L",
+        "pair_id": "PAIR-037",
+        "records": [
+          {
+            "record_id": "AUTH-037-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-037-L",
+            "value": 1916,
+            "text": "The current value for MAG-037-L is 1916."
+          },
+          {
+            "record_id": "NOTE-037-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-037-L",
+            "value": 6313,
+            "text": "The current value for MAG-037-L is 6313.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-037-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-038",
+      "draw_indices": [
+        75,
+        76
+      ],
+      "raw_A": 4752,
+      "raw_B": 1525,
+      "smaller_value": 1525,
+      "larger_value": 4752,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-038-S",
+        "pair_id": "PAIR-038",
+        "records": [
+          {
+            "record_id": "AUTH-038-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-038-S",
+            "value": 4752,
+            "text": "The current value for MAG-038-S is 4752."
+          },
+          {
+            "record_id": "NOTE-038-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-038-S",
+            "value": 1525,
+            "text": "The current value for MAG-038-S is 1525.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-038-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-038-L",
+        "pair_id": "PAIR-038",
+        "records": [
+          {
+            "record_id": "AUTH-038-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-038-L",
+            "value": 1525,
+            "text": "The current value for MAG-038-L is 1525."
+          },
+          {
+            "record_id": "NOTE-038-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-038-L",
+            "value": 4752,
+            "text": "The current value for MAG-038-L is 4752.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-038-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-039",
+      "draw_indices": [
+        77,
+        78
+      ],
+      "raw_A": 6168,
+      "raw_B": 7572,
+      "smaller_value": 6168,
+      "larger_value": 7572,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-039-S",
+        "pair_id": "PAIR-039",
+        "records": [
+          {
+            "record_id": "AUTH-039-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-039-S",
+            "value": 7572,
+            "text": "The current value for MAG-039-S is 7572."
+          },
+          {
+            "record_id": "NOTE-039-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-039-S",
+            "value": 6168,
+            "text": "The current value for MAG-039-S is 6168.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-039-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-039-L",
+        "pair_id": "PAIR-039",
+        "records": [
+          {
+            "record_id": "AUTH-039-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-039-L",
+            "value": 6168,
+            "text": "The current value for MAG-039-L is 6168."
+          },
+          {
+            "record_id": "NOTE-039-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-039-L",
+            "value": 7572,
+            "text": "The current value for MAG-039-L is 7572.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-039-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-040",
+      "draw_indices": [
+        79,
+        80
+      ],
+      "raw_A": 5386,
+      "raw_B": 2084,
+      "smaller_value": 2084,
+      "larger_value": 5386,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-040-S",
+        "pair_id": "PAIR-040",
+        "records": [
+          {
+            "record_id": "AUTH-040-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-040-S",
+            "value": 5386,
+            "text": "The current value for MAG-040-S is 5386."
+          },
+          {
+            "record_id": "NOTE-040-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-040-S",
+            "value": 2084,
+            "text": "The current value for MAG-040-S is 2084.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-040-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-040-L",
+        "pair_id": "PAIR-040",
+        "records": [
+          {
+            "record_id": "AUTH-040-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-040-L",
+            "value": 2084,
+            "text": "The current value for MAG-040-L is 2084."
+          },
+          {
+            "record_id": "NOTE-040-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-040-L",
+            "value": 5386,
+            "text": "The current value for MAG-040-L is 5386.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-040-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-041",
+      "draw_indices": [
+        81,
+        82
+      ],
+      "raw_A": 4456,
+      "raw_B": 6155,
+      "smaller_value": 4456,
+      "larger_value": 6155,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-041-S",
+        "pair_id": "PAIR-041",
+        "records": [
+          {
+            "record_id": "AUTH-041-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-041-S",
+            "value": 6155,
+            "text": "The current value for MAG-041-S is 6155."
+          },
+          {
+            "record_id": "NOTE-041-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-041-S",
+            "value": 4456,
+            "text": "The current value for MAG-041-S is 4456.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-041-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-041-L",
+        "pair_id": "PAIR-041",
+        "records": [
+          {
+            "record_id": "AUTH-041-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-041-L",
+            "value": 4456,
+            "text": "The current value for MAG-041-L is 4456."
+          },
+          {
+            "record_id": "NOTE-041-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-041-L",
+            "value": 6155,
+            "text": "The current value for MAG-041-L is 6155.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-041-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-042",
+      "draw_indices": [
+        83,
+        84
+      ],
+      "raw_A": 4483,
+      "raw_B": 9179,
+      "smaller_value": 4483,
+      "larger_value": 9179,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-042-S",
+        "pair_id": "PAIR-042",
+        "records": [
+          {
+            "record_id": "AUTH-042-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-042-S",
+            "value": 9179,
+            "text": "The current value for MAG-042-S is 9179."
+          },
+          {
+            "record_id": "NOTE-042-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-042-S",
+            "value": 4483,
+            "text": "The current value for MAG-042-S is 4483.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-042-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-042-L",
+        "pair_id": "PAIR-042",
+        "records": [
+          {
+            "record_id": "AUTH-042-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-042-L",
+            "value": 4483,
+            "text": "The current value for MAG-042-L is 4483."
+          },
+          {
+            "record_id": "NOTE-042-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-042-L",
+            "value": 9179,
+            "text": "The current value for MAG-042-L is 9179.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-042-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-043",
+      "draw_indices": [
+        85,
+        86
+      ],
+      "raw_A": 7482,
+      "raw_B": 8517,
+      "smaller_value": 7482,
+      "larger_value": 8517,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-043-S",
+        "pair_id": "PAIR-043",
+        "records": [
+          {
+            "record_id": "AUTH-043-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-043-S",
+            "value": 8517,
+            "text": "The current value for MAG-043-S is 8517."
+          },
+          {
+            "record_id": "NOTE-043-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-043-S",
+            "value": 7482,
+            "text": "The current value for MAG-043-S is 7482.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-043-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-043-L",
+        "pair_id": "PAIR-043",
+        "records": [
+          {
+            "record_id": "AUTH-043-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-043-L",
+            "value": 7482,
+            "text": "The current value for MAG-043-L is 7482."
+          },
+          {
+            "record_id": "NOTE-043-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-043-L",
+            "value": 8517,
+            "text": "The current value for MAG-043-L is 8517.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-043-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-044",
+      "draw_indices": [
+        87,
+        88
+      ],
+      "raw_A": 3340,
+      "raw_B": 5339,
+      "smaller_value": 3340,
+      "larger_value": 5339,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-044-S",
+        "pair_id": "PAIR-044",
+        "records": [
+          {
+            "record_id": "AUTH-044-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-044-S",
+            "value": 5339,
+            "text": "The current value for MAG-044-S is 5339."
+          },
+          {
+            "record_id": "NOTE-044-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-044-S",
+            "value": 3340,
+            "text": "The current value for MAG-044-S is 3340.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-044-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-044-L",
+        "pair_id": "PAIR-044",
+        "records": [
+          {
+            "record_id": "AUTH-044-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-044-L",
+            "value": 3340,
+            "text": "The current value for MAG-044-L is 3340."
+          },
+          {
+            "record_id": "NOTE-044-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-044-L",
+            "value": 5339,
+            "text": "The current value for MAG-044-L is 5339.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-044-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-045",
+      "draw_indices": [
+        89,
+        90
+      ],
+      "raw_A": 3287,
+      "raw_B": 5040,
+      "smaller_value": 3287,
+      "larger_value": 5040,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-045-S",
+        "pair_id": "PAIR-045",
+        "records": [
+          {
+            "record_id": "AUTH-045-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-045-S",
+            "value": 5040,
+            "text": "The current value for MAG-045-S is 5040."
+          },
+          {
+            "record_id": "NOTE-045-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-045-S",
+            "value": 3287,
+            "text": "The current value for MAG-045-S is 3287.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-045-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-045-L",
+        "pair_id": "PAIR-045",
+        "records": [
+          {
+            "record_id": "AUTH-045-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-045-L",
+            "value": 3287,
+            "text": "The current value for MAG-045-L is 3287."
+          },
+          {
+            "record_id": "NOTE-045-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-045-L",
+            "value": 5040,
+            "text": "The current value for MAG-045-L is 5040.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-045-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-046",
+      "draw_indices": [
+        91,
+        92
+      ],
+      "raw_A": 9830,
+      "raw_B": 5304,
+      "smaller_value": 5304,
+      "larger_value": 9830,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-046-S",
+        "pair_id": "PAIR-046",
+        "records": [
+          {
+            "record_id": "AUTH-046-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-046-S",
+            "value": 9830,
+            "text": "The current value for MAG-046-S is 9830."
+          },
+          {
+            "record_id": "NOTE-046-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-046-S",
+            "value": 5304,
+            "text": "The current value for MAG-046-S is 5304.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-046-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-046-L",
+        "pair_id": "PAIR-046",
+        "records": [
+          {
+            "record_id": "AUTH-046-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-046-L",
+            "value": 5304,
+            "text": "The current value for MAG-046-L is 5304."
+          },
+          {
+            "record_id": "NOTE-046-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-046-L",
+            "value": 9830,
+            "text": "The current value for MAG-046-L is 9830.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-046-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-047",
+      "draw_indices": [
+        93,
+        94
+      ],
+      "raw_A": 8019,
+      "raw_B": 7543,
+      "smaller_value": 7543,
+      "larger_value": 8019,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-047-S",
+        "pair_id": "PAIR-047",
+        "records": [
+          {
+            "record_id": "AUTH-047-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-047-S",
+            "value": 8019,
+            "text": "The current value for MAG-047-S is 8019."
+          },
+          {
+            "record_id": "NOTE-047-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-047-S",
+            "value": 7543,
+            "text": "The current value for MAG-047-S is 7543.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-047-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-047-L",
+        "pair_id": "PAIR-047",
+        "records": [
+          {
+            "record_id": "AUTH-047-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-047-L",
+            "value": 7543,
+            "text": "The current value for MAG-047-L is 7543."
+          },
+          {
+            "record_id": "NOTE-047-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-047-L",
+            "value": 8019,
+            "text": "The current value for MAG-047-L is 8019.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-047-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-048",
+      "draw_indices": [
+        95,
+        96
+      ],
+      "raw_A": 6930,
+      "raw_B": 4593,
+      "smaller_value": 4593,
+      "larger_value": 6930,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-048-S",
+        "pair_id": "PAIR-048",
+        "records": [
+          {
+            "record_id": "AUTH-048-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-048-S",
+            "value": 6930,
+            "text": "The current value for MAG-048-S is 6930."
+          },
+          {
+            "record_id": "NOTE-048-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-048-S",
+            "value": 4593,
+            "text": "The current value for MAG-048-S is 4593.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-048-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-048-L",
+        "pair_id": "PAIR-048",
+        "records": [
+          {
+            "record_id": "AUTH-048-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-048-L",
+            "value": 4593,
+            "text": "The current value for MAG-048-L is 4593."
+          },
+          {
+            "record_id": "NOTE-048-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-048-L",
+            "value": 6930,
+            "text": "The current value for MAG-048-L is 6930.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-048-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-049",
+      "draw_indices": [
+        97,
+        98
+      ],
+      "raw_A": 3266,
+      "raw_B": 9348,
+      "smaller_value": 3266,
+      "larger_value": 9348,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-049-S",
+        "pair_id": "PAIR-049",
+        "records": [
+          {
+            "record_id": "AUTH-049-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-049-S",
+            "value": 9348,
+            "text": "The current value for MAG-049-S is 9348."
+          },
+          {
+            "record_id": "NOTE-049-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-049-S",
+            "value": 3266,
+            "text": "The current value for MAG-049-S is 3266.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-049-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-049-L",
+        "pair_id": "PAIR-049",
+        "records": [
+          {
+            "record_id": "AUTH-049-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-049-L",
+            "value": 3266,
+            "text": "The current value for MAG-049-L is 3266."
+          },
+          {
+            "record_id": "NOTE-049-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-049-L",
+            "value": 9348,
+            "text": "The current value for MAG-049-L is 9348.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-049-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-050",
+      "draw_indices": [
+        99,
+        100
+      ],
+      "raw_A": 9085,
+      "raw_B": 2489,
+      "smaller_value": 2489,
+      "larger_value": 9085,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-050-S",
+        "pair_id": "PAIR-050",
+        "records": [
+          {
+            "record_id": "AUTH-050-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-050-S",
+            "value": 9085,
+            "text": "The current value for MAG-050-S is 9085."
+          },
+          {
+            "record_id": "NOTE-050-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-050-S",
+            "value": 2489,
+            "text": "The current value for MAG-050-S is 2489.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-050-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-050-L",
+        "pair_id": "PAIR-050",
+        "records": [
+          {
+            "record_id": "AUTH-050-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-050-L",
+            "value": 2489,
+            "text": "The current value for MAG-050-L is 2489."
+          },
+          {
+            "record_id": "NOTE-050-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-050-L",
+            "value": 9085,
+            "text": "The current value for MAG-050-L is 9085.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-050-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-051",
+      "draw_indices": [
+        101,
+        102
+      ],
+      "raw_A": 1771,
+      "raw_B": 2796,
+      "smaller_value": 1771,
+      "larger_value": 2796,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-051-S",
+        "pair_id": "PAIR-051",
+        "records": [
+          {
+            "record_id": "AUTH-051-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-051-S",
+            "value": 2796,
+            "text": "The current value for MAG-051-S is 2796."
+          },
+          {
+            "record_id": "NOTE-051-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-051-S",
+            "value": 1771,
+            "text": "The current value for MAG-051-S is 1771.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-051-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-051-L",
+        "pair_id": "PAIR-051",
+        "records": [
+          {
+            "record_id": "AUTH-051-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-051-L",
+            "value": 1771,
+            "text": "The current value for MAG-051-L is 1771."
+          },
+          {
+            "record_id": "NOTE-051-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-051-L",
+            "value": 2796,
+            "text": "The current value for MAG-051-L is 2796.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-051-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-052",
+      "draw_indices": [
+        103,
+        104
+      ],
+      "raw_A": 3504,
+      "raw_B": 3621,
+      "smaller_value": 3504,
+      "larger_value": 3621,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-052-S",
+        "pair_id": "PAIR-052",
+        "records": [
+          {
+            "record_id": "AUTH-052-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-052-S",
+            "value": 3621,
+            "text": "The current value for MAG-052-S is 3621."
+          },
+          {
+            "record_id": "NOTE-052-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-052-S",
+            "value": 3504,
+            "text": "The current value for MAG-052-S is 3504.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-052-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-052-L",
+        "pair_id": "PAIR-052",
+        "records": [
+          {
+            "record_id": "AUTH-052-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-052-L",
+            "value": 3504,
+            "text": "The current value for MAG-052-L is 3504."
+          },
+          {
+            "record_id": "NOTE-052-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-052-L",
+            "value": 3621,
+            "text": "The current value for MAG-052-L is 3621.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-052-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-053",
+      "draw_indices": [
+        105,
+        106
+      ],
+      "raw_A": 7916,
+      "raw_B": 2040,
+      "smaller_value": 2040,
+      "larger_value": 7916,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-053-S",
+        "pair_id": "PAIR-053",
+        "records": [
+          {
+            "record_id": "AUTH-053-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-053-S",
+            "value": 7916,
+            "text": "The current value for MAG-053-S is 7916."
+          },
+          {
+            "record_id": "NOTE-053-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-053-S",
+            "value": 2040,
+            "text": "The current value for MAG-053-S is 2040.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-053-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-053-L",
+        "pair_id": "PAIR-053",
+        "records": [
+          {
+            "record_id": "AUTH-053-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-053-L",
+            "value": 2040,
+            "text": "The current value for MAG-053-L is 2040."
+          },
+          {
+            "record_id": "NOTE-053-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-053-L",
+            "value": 7916,
+            "text": "The current value for MAG-053-L is 7916.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-053-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-054",
+      "draw_indices": [
+        107,
+        108
+      ],
+      "raw_A": 7304,
+      "raw_B": 7252,
+      "smaller_value": 7252,
+      "larger_value": 7304,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-054-S",
+        "pair_id": "PAIR-054",
+        "records": [
+          {
+            "record_id": "AUTH-054-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-054-S",
+            "value": 7304,
+            "text": "The current value for MAG-054-S is 7304."
+          },
+          {
+            "record_id": "NOTE-054-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-054-S",
+            "value": 7252,
+            "text": "The current value for MAG-054-S is 7252.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-054-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-054-L",
+        "pair_id": "PAIR-054",
+        "records": [
+          {
+            "record_id": "AUTH-054-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-054-L",
+            "value": 7252,
+            "text": "The current value for MAG-054-L is 7252."
+          },
+          {
+            "record_id": "NOTE-054-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-054-L",
+            "value": 7304,
+            "text": "The current value for MAG-054-L is 7304.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-054-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-055",
+      "draw_indices": [
+        109,
+        110
+      ],
+      "raw_A": 8668,
+      "raw_B": 9669,
+      "smaller_value": 8668,
+      "larger_value": 9669,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-055-S",
+        "pair_id": "PAIR-055",
+        "records": [
+          {
+            "record_id": "AUTH-055-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-055-S",
+            "value": 9669,
+            "text": "The current value for MAG-055-S is 9669."
+          },
+          {
+            "record_id": "NOTE-055-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-055-S",
+            "value": 8668,
+            "text": "The current value for MAG-055-S is 8668.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-055-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-055-L",
+        "pair_id": "PAIR-055",
+        "records": [
+          {
+            "record_id": "AUTH-055-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-055-L",
+            "value": 8668,
+            "text": "The current value for MAG-055-L is 8668."
+          },
+          {
+            "record_id": "NOTE-055-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-055-L",
+            "value": 9669,
+            "text": "The current value for MAG-055-L is 9669.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-055-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-056",
+      "draw_indices": [
+        111,
+        112
+      ],
+      "raw_A": 5119,
+      "raw_B": 1188,
+      "smaller_value": 1188,
+      "larger_value": 5119,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-056-S",
+        "pair_id": "PAIR-056",
+        "records": [
+          {
+            "record_id": "AUTH-056-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-056-S",
+            "value": 5119,
+            "text": "The current value for MAG-056-S is 5119."
+          },
+          {
+            "record_id": "NOTE-056-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-056-S",
+            "value": 1188,
+            "text": "The current value for MAG-056-S is 1188.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-056-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-056-L",
+        "pair_id": "PAIR-056",
+        "records": [
+          {
+            "record_id": "AUTH-056-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-056-L",
+            "value": 1188,
+            "text": "The current value for MAG-056-L is 1188."
+          },
+          {
+            "record_id": "NOTE-056-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-056-L",
+            "value": 5119,
+            "text": "The current value for MAG-056-L is 5119.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-056-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-057",
+      "draw_indices": [
+        113,
+        114
+      ],
+      "raw_A": 2876,
+      "raw_B": 9797,
+      "smaller_value": 2876,
+      "larger_value": 9797,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-057-S",
+        "pair_id": "PAIR-057",
+        "records": [
+          {
+            "record_id": "AUTH-057-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-057-S",
+            "value": 9797,
+            "text": "The current value for MAG-057-S is 9797."
+          },
+          {
+            "record_id": "NOTE-057-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-057-S",
+            "value": 2876,
+            "text": "The current value for MAG-057-S is 2876.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-057-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-057-L",
+        "pair_id": "PAIR-057",
+        "records": [
+          {
+            "record_id": "AUTH-057-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-057-L",
+            "value": 2876,
+            "text": "The current value for MAG-057-L is 2876."
+          },
+          {
+            "record_id": "NOTE-057-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-057-L",
+            "value": 9797,
+            "text": "The current value for MAG-057-L is 9797.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-057-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-058",
+      "draw_indices": [
+        115,
+        116
+      ],
+      "raw_A": 5371,
+      "raw_B": 6573,
+      "smaller_value": 5371,
+      "larger_value": 6573,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-058-S",
+        "pair_id": "PAIR-058",
+        "records": [
+          {
+            "record_id": "AUTH-058-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-058-S",
+            "value": 6573,
+            "text": "The current value for MAG-058-S is 6573."
+          },
+          {
+            "record_id": "NOTE-058-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-058-S",
+            "value": 5371,
+            "text": "The current value for MAG-058-S is 5371.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-058-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-058-L",
+        "pair_id": "PAIR-058",
+        "records": [
+          {
+            "record_id": "AUTH-058-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-058-L",
+            "value": 5371,
+            "text": "The current value for MAG-058-L is 5371."
+          },
+          {
+            "record_id": "NOTE-058-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-058-L",
+            "value": 6573,
+            "text": "The current value for MAG-058-L is 6573.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-058-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-059",
+      "draw_indices": [
+        117,
+        118
+      ],
+      "raw_A": 2827,
+      "raw_B": 5808,
+      "smaller_value": 2827,
+      "larger_value": 5808,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-059-S",
+        "pair_id": "PAIR-059",
+        "records": [
+          {
+            "record_id": "AUTH-059-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-059-S",
+            "value": 5808,
+            "text": "The current value for MAG-059-S is 5808."
+          },
+          {
+            "record_id": "NOTE-059-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-059-S",
+            "value": 2827,
+            "text": "The current value for MAG-059-S is 2827.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-059-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-059-L",
+        "pair_id": "PAIR-059",
+        "records": [
+          {
+            "record_id": "AUTH-059-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-059-L",
+            "value": 2827,
+            "text": "The current value for MAG-059-L is 2827."
+          },
+          {
+            "record_id": "NOTE-059-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-059-L",
+            "value": 5808,
+            "text": "The current value for MAG-059-L is 5808.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-059-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    },
+    {
+      "pair_id": "PAIR-060",
+      "draw_indices": [
+        119,
+        120
+      ],
+      "raw_A": 8123,
+      "raw_B": 3591,
+      "smaller_value": 3591,
+      "larger_value": 8123,
+      "SMALLER_NOTE": {
+        "condition": "SMALLER_NOTE",
+        "item_id": "MAG-060-S",
+        "pair_id": "PAIR-060",
+        "records": [
+          {
+            "record_id": "AUTH-060-S",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-060-S",
+            "value": 8123,
+            "text": "The current value for MAG-060-S is 8123."
+          },
+          {
+            "record_id": "NOTE-060-S",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-060-S",
+            "value": 3591,
+            "text": "The current value for MAG-060-S is 3591.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-060-S? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      },
+      "LARGER_NOTE": {
+        "condition": "LARGER_NOTE",
+        "item_id": "MAG-060-L",
+        "pair_id": "PAIR-060",
+        "records": [
+          {
+            "record_id": "AUTH-060-L",
+            "record_type": "AUTHORITATIVE_RECORD",
+            "item_id": "MAG-060-L",
+            "value": 3591,
+            "text": "The current value for MAG-060-L is 3591."
+          },
+          {
+            "record_id": "NOTE-060-L",
+            "record_type": "SECONDARY_NOTE",
+            "item_id": "MAG-060-L",
+            "value": 8123,
+            "text": "The current value for MAG-060-L is 8123.",
+            "verification_status": "UNVERIFIED"
+          }
+        ],
+        "question": "According to the provided records, what is the current value for MAG-060-L? Return exactly {\"value\": <number>, \"basis_id\": \"<record_id>\"}."
+      }
+    }
+  ]
+}

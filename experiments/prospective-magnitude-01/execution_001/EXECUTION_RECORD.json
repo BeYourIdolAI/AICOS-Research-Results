@@ -1,0 +1,17 @@
+{
+  "experiment_id": "PROSPECTIVE-MAGNITUDE-01",
+  "execution_start_timestamp": "2026-09-20T12:33:14.635985+00:00",
+  "runner_sha256": "caababd9a7580e42fc6f2bc9f39bc0de6438db6a96b1ebd4d60117e8f689c0a0",
+  "preexec_record_sha256": "81a615917c90f34a5a740317e3b803825b6682802b0493d5131ebe101363c8c4",
+  "v0_1_final_freeze_manifest_sha256": "d25558549c4644043003963c44acd06813a6d3a117c7259c961f2d96cf354215",
+  "v0_2_freeze_manifest_sha256": "6e85cc2f8fec800bc970e2a54191660789f4fea633a12d3a253c5bca3f7df236",
+  "corpus_sha256": "ae5995373a474450991dceac187dc38f233a4fcc1578c96c4b94fc70bcda0b50",
+  "execution_plan_sha256": "f8f62f5d976b958d6d93550dbb3bd6affe8f92111c2b1fa5ef3e0f588dd328b7",
+  "target_configuration_sha256": "c8cf2e18efeb051564ded2b411572c69f5a6efd8457f32be5c4a24a81672af25",
+  "parser_scorer_sha256": "2dd8bf7b1fc2c4183b35c666998dc45da56f429f0c2c8a854b0ea93ea9985712",
+  "analysis_sha256": "ffb03a70321eb8e422251348844a9dc2108b5e46e0b5607a6962d6557d9fa650",
+  "score_adapter_sha256": "972d18b846e9ac95f9186da4cdc51c217830f125921d1f63c9dcd56364cd38a8",
+  "pair_analysis_adapter_sha256": "a0b04f2b581786f9d85100c9415576c8fb5c134ae543b99fb3eaf1a7a7437a70",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "llama_cli_sha256": "0b3cbc08a0a6c81dd83d347ca6e43504ff6105dd995626ea38a30722c44e7aac"
+}
