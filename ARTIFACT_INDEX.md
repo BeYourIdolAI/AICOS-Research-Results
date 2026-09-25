@@ -77,3 +77,21 @@
 ## Additional local research context
 
 `research-context/additional-local/measurement-assurance/` preserves 80 byte-verified files from a separately located historical measurement-assurance handoff. It is NON_CANONICAL_HISTORICAL_CONTEXT and does not replace RAW, LOGS, RESULTS, REPORT, or any frozen record. The diagnosticity README was copied to its unique context path after same-path verification; see its provenance file and `inventory/ADDITIONAL_LOCAL_SOURCE_REVIEW.csv`.
+
+## Intentionally excluded archival originals
+
+Note added 2026-09-25. The table rows above are unchanged.
+
+The following seven indexed originals are intentionally not tracked in this public repository. They are listed in `.gitignore` and classified `EXCLUDED_PRIVATE_LOCAL_ARCHIVAL` because each contains an identifying local path. The byte-identical originals are retained locally; the SHA-256 values in the table above refer to those originals and cannot be verified from a clone of this repository.
+
+| Excluded original | Public redacted copy |
+|---|---|
+| `experiments/prospective-diag-2arm-01/implementation/CHECK_V4_LINE_ENDINGS.py` | `publication-copies/CHECK_V4_LINE_ENDINGS.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01.py` | `publication-copies/RUN_PROSPECTIVE_DIAG_2ARM_01.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v2.py` | `publication-copies/RUN_PROSPECTIVE_DIAG_2ARM_01_v2.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v3.py` | `publication-copies/RUN_PROSPECTIVE_DIAG_2ARM_01_v3.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v4.py` | `publication-copies/RUN_PROSPECTIVE_DIAG_2ARM_01_v4.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/RUN_PROSPECTIVE_DIAG_2ARM_01_v5.py` | `publication-copies/RUN_PROSPECTIVE_DIAG_2ARM_01_v5.PUBLICATION_COPY.py` |
+| `experiments/prospective-diag-2arm-01/implementation/SMOKE_CLEAN_STDOUT.py` | `publication-copies/SMOKE_CLEAN_STDOUT.PUBLICATION_COPY.py` |
+
+The redacted copies differ from their originals only by the documented local-path pseudonymization. Original and copy hashes, and the exact transformation, are recorded in `inventory/PUBLICATION_COPIES_MANIFEST.csv`. The redacted copies are publication aids, not replacements for the archival originals.
