@@ -16,6 +16,10 @@ Reports and later interpretations do not replace historical observations.
 
 Current material includes several distinct research records.
 
+### R3–R3.2 bounded status
+
+A [short status summary](research-context/R3-R3.2/STATUS_SUMMARY_2026-09-25.md) records the current R3, R3.1, and R3.2 status without publishing the R3.2 test design or case-level material. The [pre-freeze experiment qualification rule v0.1](methodology/pre-freeze/AICOS_PRE_FREEZE_EXPERIMENT_QUALIFICATION_RULE_v0.1_FROZEN.md) is an experiment-operations rule, not an AICOS Core norm.
+
 ### EAW v0.4.8 / P4 archival packet
 
 The repository contains the previously published partial archival research packet for EAW v0.4.8 / P4 same-Q composition.
